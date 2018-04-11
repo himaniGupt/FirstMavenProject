@@ -1,2 +1,0 @@
-# FirstMavenProject
-automationpractice project
