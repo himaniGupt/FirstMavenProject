@@ -44,6 +44,7 @@ public class TC003_VerifyLoginWithDifferentRecords extends TestBase{
 		homepage.loginToApplication(emailAddress, password);
 		boolean status = homepage.AccountCreationVerif();
 		System.out.println("status is "+status);
+		getScreenshot("testLogin_"+emailAddress);
 		if(status)
 		{
 			homepage.logOutAccount();

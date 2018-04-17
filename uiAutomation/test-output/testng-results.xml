@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="5" passed="3" failed="0" skipped="2">
   <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomationsrc\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation4@gmail.com_17_04_2018_10_40_38.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomationsrc\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation4@gmail.com_17_04_2018_10_40_38.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomationsrc\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation5@gmail.com_17_04_2018_10_42_06.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomationsrc\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation5@gmail.com_17_04_2018_10_42_06.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomationsrc\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation6@gmail.com_17_04_2018_10_43_15.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomationsrc\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation6@gmail.com_17_04_2018_10_43_15.png' height='100' width='100'/> </a>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2018-04-10T05:26:40Z" name="Default suite" finished-at="2018-04-10T05:30:37Z" duration-ms="236754">
+  <suite started-at="2018-04-17T05:09:05Z" name="Default suite" finished-at="2018-04-17T05:13:50Z" duration-ms="284970">
     <groups>
     </groups>
-    <test started-at="2018-04-10T05:26:40Z" name="Default test" finished-at="2018-04-10T05:30:37Z" duration-ms="236754">
+    <test started-at="2018-04-17T05:09:05Z" name="Default test" finished-at="2018-04-17T05:13:50Z" duration-ms="284970">
       <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@51f116b8]" started-at="2018-04-10T10:56:40Z" name="setup" finished-at="2018-04-10T10:57:03Z" duration-ms="22235" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-17T10:39:05Z" name="setup" finished-at="2018-04-17T10:39:54Z" duration-ms="49724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@51f116b8]" started-at="2018-04-10T10:57:03Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-10T10:58:14Z" duration-ms="70998" status="PASS">
+        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-17T10:39:57Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-17T10:41:12Z" duration-ms="75075" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,9 +39,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomationsrc\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation4@gmail.com_17_04_2018_10_40_38.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomationsrc\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation4@gmail.com_17_04_2018_10_40_38.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestLogin -->
-        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@51f116b8]" started-at="2018-04-10T10:58:14Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-10T10:59:27Z" duration-ms="72851" status="PASS">
+        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-17T10:41:12Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-17T10:42:40Z" duration-ms="87154" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,9 +63,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomationsrc\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation5@gmail.com_17_04_2018_10_42_06.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomationsrc\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation5@gmail.com_17_04_2018_10_42_06.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestLogin -->
-        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@51f116b8]" started-at="2018-04-10T10:59:27Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-10T11:00:37Z" duration-ms="69411" status="PASS">
+        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-17T10:42:40Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-17T10:43:49Z" duration-ms="69447" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,9 +87,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomationsrc\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation6@gmail.com_17_04_2018_10_43_15.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomationsrc\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation6@gmail.com_17_04_2018_10_43_15.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestLogin -->
-        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@51f116b8]" started-at="2018-04-10T11:00:37Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-10T11:00:37Z" duration-ms="0" status="SKIP">
+        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-17T10:43:49Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-17T10:43:49Z" duration-ms="4" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -130,7 +148,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestLogin -->
-        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@51f116b8]" started-at="2018-04-10T11:00:37Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-10T11:00:37Z" duration-ms="0" status="SKIP">
+        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-17T10:43:49Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-17T10:43:49Z" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -186,7 +204,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestLogin -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@51f116b8]" started-at="2018-04-10T11:00:37Z" name="endTest" finished-at="2018-04-10T11:00:37Z" duration-ms="317" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-17T10:43:49Z" name="endTest" finished-at="2018-04-17T10:43:50Z" duration-ms="634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
