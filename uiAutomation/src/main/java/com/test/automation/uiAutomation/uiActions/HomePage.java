@@ -1,5 +1,7 @@
 package com.test.automation.uiAutomation.uiActions;
 
+import java.awt.Menu;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -167,30 +169,34 @@ public class HomePage extends TestBase{
 		log.info("Clicked on SignOut button and object is "+logOut.toString());
 	}
 	
-	public void clickOnNavigationMenu(String menuOption)
+	public void clickOnNavigationMenu(String menuOption, WebDriver driver)
 	{
 		Actions act = new Actions(driver);
 		act.moveToElement(driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='"+menuOption+"']"))).build().perform();
+		log.info("Mouse hover over option: "+menuOption);
 		//ul[class^='sf-menu']>li>a[title='Women']-> menuOption=Women
 		//ul[class^='sf-menu']>li>a[title='Dresses'] -> menuOption=Dresses
 		//ul[class^='sf-menu']>li>a[title='T-shirts'] -> menuOption=T-Shirts
 		if(menuOption.equals("T-Shirts")) {
 			driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='"+menuOption+"']")).click();
+			log.info("Clicked on option: "+menuOption);
 		}
 	}
 	
-	public void clickOnProductInWomenSection(String apparelOption)
+	public void clickOnProductInWomenSection(String apparelOption, WebDriver driver)
 	{
 		Actions act = new Actions(driver);
 		act.click(driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='"+apparelOption+"']"))).build().perform();
+		log.info("Clicked on apparel option: "+apparelOption+" in Women section");
 		//"ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='Casual Dresses']" -> apparelOption=Casual Dresses
 		//"ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='Casual Dresses']" -> apparelOption=Blouses
 	}
 	
-	public void clickOnProductInDressesSection(String apparelOption)
+	public void clickOnProductInDressesSection(String apparelOption, WebDriver driver)
 	{
 		Actions act = new Actions(driver);
 		act.click(driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='"+apparelOption+"']"))).build().perform();
+		log.info("Clicked on apparel option: "+apparelOption+" in Dresses section");
 		//ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='Summer Dresses'] -> apparelOption=Casual Dresses
 		//ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='Summer Dresses'] -> apparelOption=Summer Dresses
 	}

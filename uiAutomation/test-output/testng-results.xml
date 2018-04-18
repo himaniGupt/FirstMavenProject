@@ -1,214 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="0" skipped="2">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation4@gmail.com_18_04_2018_12_17_42.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation4@gmail.com_18_04_2018_12_17_42.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC004_VerifyNavigationToApparelPage_ClickOnWomen_18_04_2018_05_10_53.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC004_VerifyNavigationToApparelPage_ClickOnWomen_18_04_2018_05_10_53.png' height='100' width='100'/> </a>]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation5@gmail.com_18_04_2018_12_18_52.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation5@gmail.com_18_04_2018_12_18_52.png' height='100' width='100'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation6@gmail.com_18_04_2018_12_20_00.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation6@gmail.com_18_04_2018_12_20_00.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC004_VerifyNavigationToApparelPage_ClickOnApparelOption_18_04_2018_05_10_57.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC004_VerifyNavigationToApparelPage_ClickOnApparelOption_18_04_2018_05_10_57.png' height='100' width='100'/> </a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2018-04-18T06:46:28Z" name="Default suite" finished-at="2018-04-18T06:50:34Z" duration-ms="245777">
+  <suite started-at="2018-04-18T11:40:37Z" name="Default suite" finished-at="2018-04-18T11:40:58Z" duration-ms="20343">
     <groups>
     </groups>
-    <test started-at="2018-04-18T06:46:28Z" name="Default test" finished-at="2018-04-18T06:50:34Z" duration-ms="245777">
-      <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-18T12:16:28Z" name="setup" finished-at="2018-04-18T12:17:04Z" duration-ms="35684" status="PASS">
+    <test started-at="2018-04-18T11:40:37Z" name="Default test" finished-at="2018-04-18T11:40:58Z" duration-ms="20343">
+      <class name="com.test.automation.uiAutomation.homepage.TC004_VerifyNavigationToApparelPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC004_VerifyNavigationToApparelPage@503d687a]" started-at="2018-04-18T17:10:37Z" name="setup" finished-at="2018-04-18T17:10:52Z" duration-ms="14990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-18T12:17:05Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-18T12:18:17Z" duration-ms="71627" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testautomation4@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[y]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="VerifyNavigationToApparelPage()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC004_VerifyNavigationToApparelPage@503d687a]" started-at="2018-04-18T17:10:52Z" name="VerifyNavigationToApparelPage" finished-at="2018-04-18T17:10:58Z" duration-ms="5154" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation4@gmail.com_18_04_2018_12_17_42.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation4@gmail.com_18_04_2018_12_17_42.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC004_VerifyNavigationToApparelPage_ClickOnWomen_18_04_2018_05_10_53.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC004_VerifyNavigationToApparelPage_ClickOnWomen_18_04_2018_05_10_53.png' height='100' width='100'/> </a>]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- TestLogin -->
-        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-18T12:18:17Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-18T12:19:25Z" duration-ms="68535" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testautomation5@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[y]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
             <line>
-              <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation5@gmail.com_18_04_2018_12_18_52.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation5@gmail.com_18_04_2018_12_18_52.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC004_VerifyNavigationToApparelPage_ClickOnApparelOption_18_04_2018_05_10_57.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC004_VerifyNavigationToApparelPage_ClickOnApparelOption_18_04_2018_05_10_57.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TestLogin -->
-        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-18T12:19:25Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-18T12:20:33Z" duration-ms="67994" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testautomation6@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[y]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation6@gmail.com_18_04_2018_12_20_00.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\testLogin_testautomation6@gmail.com_18_04_2018_12_20_00.png' height='100' width='100'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TestLogin -->
-        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-18T12:20:33Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-18T12:20:33Z" duration-ms="6" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testautomation7@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[n]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[user marked this record as no run]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: user marked this record as no run
-	at com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords.TestLogin(TC003_VerifyLoginWithDifferentRecords.java:39)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestLogin -->
-        <test-method signature="TestLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-18T12:20:33Z" name="TestLogin" data-provider="LoginData" finished-at="2018-04-18T12:20:34Z" duration-ms="2" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testautomation8@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[n]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[user marked this record as no run]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: user marked this record as no run
-	at com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords.TestLogin(TC003_VerifyLoginWithDifferentRecords.java:39)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestLogin -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords@140c9f39]" started-at="2018-04-18T12:20:34Z" name="endTest" finished-at="2018-04-18T12:20:34Z" duration-ms="216" status="PASS">
+        </test-method> <!-- VerifyNavigationToApparelPage -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC004_VerifyNavigationToApparelPage@503d687a]" started-at="2018-04-18T17:10:58Z" name="endTest" finished-at="2018-04-18T17:10:58Z" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords -->
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC004_VerifyNavigationToApparelPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

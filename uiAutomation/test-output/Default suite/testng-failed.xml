@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
+      <class name="com.test.automation.uiAutomation.homepage.TC004_VerifyNavigationToApparelPage">
         <methods>
-          <include name="TestLogin" invocation-numbers="3 4"/>
-          <include name="setup"/>
+          <include name="VerifyNavigationToApparelPage"/>
           <include name="endTest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords -->
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC004_VerifyNavigationToApparelPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
