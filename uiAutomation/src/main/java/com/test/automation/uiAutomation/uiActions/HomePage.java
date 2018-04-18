@@ -1,15 +1,17 @@
 package com.test.automation.uiAutomation.uiActions;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 import com.test.automation.uiAutomation.testBase.TestBase;
 
-public class HomePage {
+public class HomePage extends TestBase{
 
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
 	
@@ -165,4 +167,31 @@ public class HomePage {
 		log.info("Clicked on SignOut button and object is "+logOut.toString());
 	}
 	
+	public void clickOnNavigationMenu(String menuOption)
+	{
+		Actions act = new Actions(driver);
+		act.moveToElement(driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='"+menuOption+"']"))).build().perform();
+		//ul[class^='sf-menu']>li>a[title='Women']-> menuOption=Women
+		//ul[class^='sf-menu']>li>a[title='Dresses'] -> menuOption=Dresses
+		//ul[class^='sf-menu']>li>a[title='T-shirts'] -> menuOption=T-Shirts
+		if(menuOption.equals("T-Shirts")) {
+			driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='"+menuOption+"']")).click();
+		}
+	}
+	
+	public void clickOnProductInWomenSection(String apparelOption)
+	{
+		Actions act = new Actions(driver);
+		act.click(driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='"+apparelOption+"']"))).build().perform();
+		//"ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='Casual Dresses']" -> apparelOption=Casual Dresses
+		//"ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='Casual Dresses']" -> apparelOption=Blouses
+	}
+	
+	public void clickOnProductInDressesSection(String apparelOption)
+	{
+		Actions act = new Actions(driver);
+		act.click(driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='"+apparelOption+"']"))).build().perform();
+		//ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='Summer Dresses'] -> apparelOption=Casual Dresses
+		//ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='Summer Dresses'] -> apparelOption=Summer Dresses
+	}
 }

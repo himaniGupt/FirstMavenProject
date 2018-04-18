@@ -78,7 +78,7 @@ public class TestBase {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		
 		try {
-		String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "src/main/java/com/test/automation/uiAutomation/screenshot/";
+		String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/test/automation/uiAutomation/screenshot/";
 		File destFile = new File((String) reportDirectory + name + "_" + formater.format(calendar.getTime()) + ".png");
 		FileUtils.copyFile(scrFile,destFile);
 		//This will help to link screenshot with testNG report

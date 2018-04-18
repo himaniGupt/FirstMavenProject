@@ -301,3 +301,47 @@
 2018-04-17 10:43:15 INFO  HomePage:153 - User has successfully logged into his/her account
 2018-04-17 10:43:49 INFO  HomePage:165 - Clicked on SignOut button and object is Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout']'
 2018-04-17 10:43:49 INFO  TC003_VerifyLoginWithDifferentRecords:53 - *******************Finished TC003_VerifyLoginWithDifferentRecords******************************
+2018-04-18 12:08:12 INFO  TC003_VerifyLoginWithDifferentRecords:42 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-04-18 12:08:16 INFO  HomePage:94 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (dfee063524ba6137aaa9bdbbeb383a1a)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-04-18 12:08:16 INFO  HomePage:96 - Entered email address: testautomation4@gmail.com and object is [[ChromeDriver: chrome on XP (dfee063524ba6137aaa9bdbbeb383a1a)] -> xpath: //input[@id='email']]
+2018-04-18 12:08:16 INFO  HomePage:98 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (dfee063524ba6137aaa9bdbbeb383a1a)] -> xpath: //input[@id='passwd']]
+2018-04-18 12:08:48 INFO  HomePage:100 - Clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2018-04-18 12:08:49 INFO  HomePage:153 - User has successfully logged into his/her account
+2018-04-18 12:10:55 INFO  HomePage:165 - Clicked on SignOut button and object is Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout']'
+2018-04-18 12:10:55 INFO  TC003_VerifyLoginWithDifferentRecords:53 - *******************Finished TC003_VerifyLoginWithDifferentRecords******************************
+2018-04-18 12:10:55 INFO  TC003_VerifyLoginWithDifferentRecords:42 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-04-18 12:10:58 INFO  HomePage:94 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (dfee063524ba6137aaa9bdbbeb383a1a)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-04-18 12:10:58 INFO  HomePage:96 - Entered email address: testautomation5@gmail.com and object is [[ChromeDriver: chrome on XP (dfee063524ba6137aaa9bdbbeb383a1a)] -> xpath: //input[@id='email']]
+2018-04-18 12:10:58 INFO  HomePage:98 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (dfee063524ba6137aaa9bdbbeb383a1a)] -> xpath: //input[@id='passwd']]
+2018-04-18 12:11:31 INFO  HomePage:100 - Clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2018-04-18 12:11:31 INFO  HomePage:153 - User has successfully logged into his/her account
+2018-04-18 12:12:30 INFO  HomePage:165 - Clicked on SignOut button and object is Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout']'
+2018-04-18 12:12:30 INFO  TC003_VerifyLoginWithDifferentRecords:53 - *******************Finished TC003_VerifyLoginWithDifferentRecords******************************
+2018-04-18 12:12:30 INFO  TC003_VerifyLoginWithDifferentRecords:42 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-04-18 12:12:34 INFO  HomePage:94 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (dfee063524ba6137aaa9bdbbeb383a1a)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-04-18 12:12:34 INFO  HomePage:96 - Entered email address: testautomation6@gmail.com and object is [[ChromeDriver: chrome on XP (dfee063524ba6137aaa9bdbbeb383a1a)] -> xpath: //input[@id='email']]
+2018-04-18 12:12:34 INFO  HomePage:98 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (dfee063524ba6137aaa9bdbbeb383a1a)] -> xpath: //input[@id='passwd']]
+2018-04-18 12:17:05 INFO  TC003_VerifyLoginWithDifferentRecords:42 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-04-18 12:17:09 INFO  HomePage:94 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (65c38ea2b8a58a8324ce763946f456a4)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-04-18 12:17:09 INFO  HomePage:96 - Entered email address: testautomation4@gmail.com and object is [[ChromeDriver: chrome on XP (65c38ea2b8a58a8324ce763946f456a4)] -> xpath: //input[@id='email']]
+2018-04-18 12:17:09 INFO  HomePage:98 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (65c38ea2b8a58a8324ce763946f456a4)] -> xpath: //input[@id='passwd']]
+2018-04-18 12:17:41 INFO  HomePage:100 - Clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2018-04-18 12:17:42 INFO  HomePage:153 - User has successfully logged into his/her account
+2018-04-18 12:18:17 INFO  HomePage:165 - Clicked on SignOut button and object is Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout']'
+2018-04-18 12:18:17 INFO  TC003_VerifyLoginWithDifferentRecords:53 - *******************Finished TC003_VerifyLoginWithDifferentRecords******************************
+2018-04-18 12:18:17 INFO  TC003_VerifyLoginWithDifferentRecords:42 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-04-18 12:18:20 INFO  HomePage:94 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (65c38ea2b8a58a8324ce763946f456a4)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-04-18 12:18:20 INFO  HomePage:96 - Entered email address: testautomation5@gmail.com and object is [[ChromeDriver: chrome on XP (65c38ea2b8a58a8324ce763946f456a4)] -> xpath: //input[@id='email']]
+2018-04-18 12:18:20 INFO  HomePage:98 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (65c38ea2b8a58a8324ce763946f456a4)] -> xpath: //input[@id='passwd']]
+2018-04-18 12:18:52 INFO  HomePage:100 - Clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2018-04-18 12:18:52 INFO  HomePage:153 - User has successfully logged into his/her account
+2018-04-18 12:19:25 INFO  HomePage:165 - Clicked on SignOut button and object is Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout']'
+2018-04-18 12:19:25 INFO  TC003_VerifyLoginWithDifferentRecords:53 - *******************Finished TC003_VerifyLoginWithDifferentRecords******************************
+2018-04-18 12:19:25 INFO  TC003_VerifyLoginWithDifferentRecords:42 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-04-18 12:19:28 INFO  HomePage:94 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (65c38ea2b8a58a8324ce763946f456a4)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-04-18 12:19:28 INFO  HomePage:96 - Entered email address: testautomation6@gmail.com and object is [[ChromeDriver: chrome on XP (65c38ea2b8a58a8324ce763946f456a4)] -> xpath: //input[@id='email']]
+2018-04-18 12:19:28 INFO  HomePage:98 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (65c38ea2b8a58a8324ce763946f456a4)] -> xpath: //input[@id='passwd']]
+2018-04-18 12:20:00 INFO  HomePage:100 - Clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2018-04-18 12:20:00 INFO  HomePage:153 - User has successfully logged into his/her account
+2018-04-18 12:20:33 INFO  HomePage:165 - Clicked on SignOut button and object is Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout']'
+2018-04-18 12:20:33 INFO  TC003_VerifyLoginWithDifferentRecords:53 - *******************Finished TC003_VerifyLoginWithDifferentRecords******************************
