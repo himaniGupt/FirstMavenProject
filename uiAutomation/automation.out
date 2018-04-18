@@ -353,3 +353,29 @@
 2018-04-18 17:10:53 INFO  HomePage:176 - Mouse hover over option: Women
 2018-04-18 17:10:57 INFO  HomePage:190 - Clicked on apparel option: Blouses in Women section
 2018-04-18 17:10:58 INFO  TC004_VerifyNavigationToApparelPage:31 - ***********Finishing TC004_VerifyNavigationToApparelPage**********
+2018-04-18 23:26:04 INFO  TC002_VerifyRegistration:28 - ********************Starting TC002_VerifyRegistration***************************
+2018-04-18 23:26:06 INFO  HomePage:116 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (453b39a957d76f7e73cbe368c214560d)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-04-18 23:26:07 INFO  HomePage:119 - Entered email and object is [[ChromeDriver: chrome on XP (453b39a957d76f7e73cbe368c214560d)] -> xpath: //input[@id='email_create']]
+2018-04-18 23:26:07 INFO  HomePage:121 - Clicked on create account button and onject is [[ChromeDriver: chrome on XP (453b39a957d76f7e73cbe368c214560d)] -> xpath: //button[@id='SubmitCreate']]
+2018-04-18 23:43:52 INFO  TC002_VerifyRegistration:28 - ********************Starting TC002_VerifyRegistration***************************
+2018-04-18 23:43:55 INFO  HomePage:116 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (660998a815464ce3d1de2fcdc2632d9c)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-04-18 23:43:55 INFO  HomePage:119 - Entered email and object is [[ChromeDriver: chrome on XP (660998a815464ce3d1de2fcdc2632d9c)] -> xpath: //input[@id='email_create']]
+2018-04-18 23:43:55 INFO  HomePage:121 - Clicked on create account button and onject is [[ChromeDriver: chrome on XP (660998a815464ce3d1de2fcdc2632d9c)] -> xpath: //button[@id='SubmitCreate']]
+2018-04-18 23:54:56 INFO  TC002_VerifyRegistration:28 - ********************Starting TC002_VerifyRegistration***************************
+2018-04-18 23:54:59 INFO  HomePage:116 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (64343269addbd3dd8ba186c20d0c7b07)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-04-18 23:54:59 INFO  HomePage:119 - Entered email and object is [[ChromeDriver: chrome on XP (64343269addbd3dd8ba186c20d0c7b07)] -> xpath: //input[@id='email_create']]
+2018-04-18 23:54:59 INFO  HomePage:121 - Clicked on create account button and onject is [[ChromeDriver: chrome on XP (64343269addbd3dd8ba186c20d0c7b07)] -> xpath: //button[@id='SubmitCreate']]
+2018-04-18 23:55:02 INFO  HomePage:129 - Entered password and object is [[ChromeDriver: chrome on XP (64343269addbd3dd8ba186c20d0c7b07)] -> xpath: //input[@id='passwd']]
+2018-04-18 23:56:33 INFO  HomePage:136 - Selected year and object is org.openqa.selenium.support.ui.Select@3773862a
+2018-04-18 23:56:34 INFO  HomePage:145 - Enterted zipcode and object is [[ChromeDriver: chrome on XP (64343269addbd3dd8ba186c20d0c7b07)] -> xpath: //input[@id='postcode']]
+2018-04-18 23:56:36 INFO  HomePage:157 - User has successfully logged into his/her account
+2018-04-18 23:56:36 INFO  TC002_VerifyRegistration:33 - *******************Finished TC002_VerifyRegistration******************************
+2018-04-19 00:09:57 INFO  TC002_VerifyRegistration:28 - ********************Starting TC002_VerifyRegistration***************************
+2018-04-19 00:10:01 INFO  HomePage:116 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (b6e483a28bb9e33d46460cf7cf5c1025)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-04-19 00:10:01 INFO  HomePage:119 - Entered email and object is [[ChromeDriver: chrome on XP (b6e483a28bb9e33d46460cf7cf5c1025)] -> xpath: //input[@id='email_create']]
+2018-04-19 00:10:01 INFO  HomePage:121 - Clicked on create account button and onject is [[ChromeDriver: chrome on XP (b6e483a28bb9e33d46460cf7cf5c1025)] -> xpath: //button[@id='SubmitCreate']]
+2018-04-19 00:10:04 INFO  HomePage:129 - Entered password and object is [[ChromeDriver: chrome on XP (b6e483a28bb9e33d46460cf7cf5c1025)] -> xpath: //input[@id='passwd']]
+2018-04-19 00:11:35 INFO  HomePage:136 - Selected year and object is org.openqa.selenium.support.ui.Select@1b70203f
+2018-04-19 00:11:36 INFO  HomePage:145 - Enterted zipcode and object is [[ChromeDriver: chrome on XP (b6e483a28bb9e33d46460cf7cf5c1025)] -> xpath: //input[@id='postcode']]
+2018-04-19 00:11:39 INFO  HomePage:157 - User has successfully logged into his/her account
+2018-04-19 00:11:39 INFO  TC002_VerifyRegistration:33 - *******************Finished TC002_VerifyRegistration******************************

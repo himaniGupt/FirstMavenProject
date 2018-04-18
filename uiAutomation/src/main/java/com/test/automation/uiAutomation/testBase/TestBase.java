@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
+import com.test.automation.uiAutomation.customListener.Listener;
 import com.test.automation.uiAutomation.excelReader.Excel_Reader;
 import org.apache.commons.io.FileUtils;
 
@@ -24,10 +25,11 @@ public class TestBase {
 
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	//String browser = "firefox";
 	//String url = "http://automationpractice.com/index.php";
 	Excel_Reader excel;
+	Listener listener;
 	
 	public void init(String browser, String url)
 	{
@@ -35,7 +37,7 @@ public class TestBase {
 		getUrl(url);
 		String log4jConfPath = "log4j.properties";
 		PropertyConfigurator.configure(log4jConfPath);
-		
+	//	listener = new Listener(driver);
 	}
 	
 	public void selectBrowser(String browser)

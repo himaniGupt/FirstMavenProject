@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.test.automation.uiAutomation.customListener.Listener"/>
+  </listeners>
+  <test name="TC002_VerifyRegistration(failed)">
     <classes>
-      <class name="com.test.automation.uiAutomation.homepage.TC004_VerifyNavigationToApparelPage">
+      <class name="com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration">
         <methods>
-          <include name="VerifyNavigationToApparelPage"/>
-          <include name="endTest"/>
           <include name="setup"/>
+          <include name="endTest"/>
+          <include name="VerifyRegistration"/>
         </methods>
-      </class> <!-- com.test.automation.uiAutomation.homepage.TC004_VerifyNavigationToApparelPage -->
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TC002_VerifyRegistration(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

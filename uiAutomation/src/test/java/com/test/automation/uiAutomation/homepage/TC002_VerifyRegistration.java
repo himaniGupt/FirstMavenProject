@@ -27,7 +27,7 @@ public class TC002_VerifyRegistration extends TestBase {
 	{
 		log.info("********************Starting TC002_VerifyRegistration***************************");
 		homepage = new HomePage(driver);
-		homepage.verifyRegistration("testautomation4@gmail.com","testName","testLastName","password@123","4  ","April ","1990  ","Sample Address","testCity","2","66678","5675675678","testAddress6");
+		homepage.verifyRegistration("auto"+System.currentTimeMillis()+"@gmail.com","testName","testLastName","password@123","4  ","April ","1990  ","Sample Address","testCity","2","66678","5675675678","testAddress7");
 		
 		Assert.assertEquals(homepage.AccountCreationVerif(), true);
 		log.info("*******************Finished TC002_VerifyRegistration******************************");
