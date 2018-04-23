@@ -14,6 +14,13 @@ import org.openqa.selenium.support.ui.Select;
 import com.test.automation.uiAutomation.testBase.TestBase;
 
 public class HomePage extends TestBase{
+	
+	public final String women = "Women";
+	public final String dresses = "Dresses";
+	public final String tshirts = "T-Shirts";
+	public final String casualDress = "Casual Dresses";
+	public final String eveningDress = "Evening Dresses";
+	public final String summerDress = "Summer Dresses";
 
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
 	
@@ -88,6 +95,7 @@ public class HomePage extends TestBase{
 	
 	public HomePage(WebDriver driver)
 	{
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -169,7 +177,7 @@ public class HomePage extends TestBase{
 		log.info("Clicked on SignOut button and object is "+logOut.toString());
 	}
 	
-	public void clickOnNavigationMenu(String menuOption, WebDriver driver)
+	public void clickOnNavigationMenu(String menuOption)
 	{
 		Actions act = new Actions(driver);
 		act.moveToElement(driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='"+menuOption+"']"))).build().perform();
@@ -183,7 +191,7 @@ public class HomePage extends TestBase{
 		}
 	}
 	
-	public void clickOnProductInWomenSection(String apparelOption, WebDriver driver)
+	public void clickOnProductInWomenSection(String apparelOption)
 	{
 		Actions act = new Actions(driver);
 		act.click(driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='"+apparelOption+"']"))).build().perform();
@@ -192,7 +200,7 @@ public class HomePage extends TestBase{
 		//"ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='Casual Dresses']" -> apparelOption=Blouses
 	}
 	
-	public void clickOnProductInDressesSection(String apparelOption, WebDriver driver)
+	public void clickOnProductInDressesSection(String apparelOption)
 	{
 		Actions act = new Actions(driver);
 		act.click(driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='"+apparelOption+"']"))).build().perform();

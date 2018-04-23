@@ -379,3 +379,61 @@
 2018-04-19 00:11:36 INFO  HomePage:145 - Enterted zipcode and object is [[ChromeDriver: chrome on XP (b6e483a28bb9e33d46460cf7cf5c1025)] -> xpath: //input[@id='postcode']]
 2018-04-19 00:11:39 INFO  HomePage:157 - User has successfully logged into his/her account
 2018-04-19 00:11:39 INFO  TC002_VerifyRegistration:33 - *******************Finished TC002_VerifyRegistration******************************
+2018-04-23 08:11:04 INFO  TestBase:24 - ********Starting VerifyAddToCart**************
+2018-04-23 08:11:05 INFO  HomePage:183 - Mouse hover over option: Dresses
+2018-04-23 08:11:05 INFO  HomePage:206 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-04-23 08:11:07 INFO  ProductDetailsPage:35 - Printed Dress has been selected
+2018-04-23 08:11:07 INFO  TestBase:30 - **********Finished VerifyAddToCart***********
+2018-04-23 08:11:08 INFO  TestBase:97 - browser closed
+2018-04-23 08:11:58 INFO  TestBase:24 - ********Starting VerifyAddToCart**************
+2018-04-23 08:11:58 INFO  HomePage:183 - Mouse hover over option: Dresses
+2018-04-23 08:11:58 INFO  HomePage:206 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-04-23 08:12:01 INFO  ProductDetailsPage:35 - Printed Dress has been selected
+2018-04-23 08:12:01 INFO  TestBase:31 - **********Finished VerifyAddToCart***********
+2018-04-23 08:12:01 INFO  TestBase:97 - browser closed
+2018-04-23 08:12:37 INFO  TestBase:24 - ********Starting VerifyAddToCart**************
+2018-04-23 08:12:38 INFO  HomePage:183 - Mouse hover over option: Dresses
+2018-04-23 08:12:38 INFO  HomePage:206 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-04-23 08:12:43 INFO  ProductDetailsPage:35 - Printed Dress has been selected
+2018-04-23 08:12:44 INFO  TestBase:31 - **********Finished VerifyAddToCart***********
+2018-04-23 08:12:46 INFO  TestBase:97 - browser closed
+2018-04-23 08:13:26 INFO  TestBase:24 - ********Starting VerifyAddToCart**************
+2018-04-23 08:13:26 INFO  HomePage:183 - Mouse hover over option: Dresses
+2018-04-23 08:13:26 INFO  HomePage:206 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-04-23 08:13:30 INFO  ProductDetailsPage:35 - Printed Dress has been selected
+2018-04-23 08:13:40 INFO  TestBase:31 - **********Finished VerifyAddToCart***********
+2018-04-23 08:13:40 INFO  TestBase:97 - browser closed
+2018-04-23 08:20:42 INFO  TestBase:24 - ********Starting VerifyAddToCart**************
+2018-04-23 08:20:42 INFO  HomePage:183 - Mouse hover over option: Dresses
+2018-04-23 08:20:42 INFO  HomePage:206 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-04-23 08:20:45 INFO  ProductDetailsPage:38 - Printed Dress has been selected
+2018-04-23 08:20:55 INFO  TestBase:32 - **********Finished VerifyAddToCart***********
+2018-04-23 08:20:55 INFO  TestBase:97 - browser closed
+2018-04-23 08:22:00 INFO  TestBase:24 - ********Starting VerifyAddToCart**************
+2018-04-23 08:22:00 INFO  HomePage:183 - Mouse hover over option: Dresses
+2018-04-23 08:22:00 INFO  HomePage:206 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-04-23 08:22:03 INFO  ProductDetailsPage:38 - Printed Dress has been selected
+2018-04-23 08:22:13 INFO  TestBase:32 - **********Finished VerifyAddToCart***********
+2018-04-23 08:22:13 INFO  TestBase:97 - browser closed
+2018-04-23 08:42:35 INFO  TestBase:24 - ********Starting VerifyAddToCart**************
+2018-04-23 08:42:36 INFO  HomePage:183 - Mouse hover over option: Dresses
+2018-04-23 08:42:40 INFO  HomePage:206 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-04-23 08:42:42 INFO  ProductDetailsPage:39 - Printed Dress has been selected
+2018-04-23 08:44:19 INFO  TestBase:24 - ********Starting VerifyAddToCart**************
+2018-04-23 08:44:19 INFO  HomePage:184 - Mouse hover over option: Dresses
+2018-04-23 08:44:19 INFO  HomePage:207 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-04-23 08:44:23 INFO  ProductDetailsPage:39 - Printed Dress has been selected
+2018-04-23 08:44:33 INFO  TestBase:32 - **********Finished VerifyAddToCart***********
+2018-04-23 08:44:35 INFO  TestBase:97 - browser closed
+2018-04-23 08:45:49 INFO  TestBase:24 - ********Starting VerifyAddToCart**************
+2018-04-23 08:45:49 INFO  HomePage:184 - Mouse hover over option: Dresses
+2018-04-23 08:45:49 INFO  HomePage:207 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-04-23 08:45:53 INFO  ProductDetailsPage:39 - Printed Dress has been selected
+2018-04-23 08:46:04 INFO  TestBase:32 - **********Finished VerifyAddToCart***********
+2018-04-23 08:46:04 INFO  TestBase:97 - browser closed
+2018-04-23 08:46:57 INFO  TestBase:24 - ********Starting VerifyAddToCart**************
+2018-04-23 08:46:57 INFO  HomePage:184 - Mouse hover over option: Dresses
+2018-04-23 08:46:57 INFO  HomePage:207 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-04-23 08:47:01 INFO  ProductDetailsPage:39 - Printed Dress has been selected
+2018-04-23 08:47:01 INFO  TestBase:32 - **********Finished VerifyAddToCart***********
+2018-04-23 08:47:03 INFO  TestBase:97 - browser closed

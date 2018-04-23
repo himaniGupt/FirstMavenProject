@@ -1,43 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Test started running:VerifyRegistration]]>
-    </line>
-    <line>
-      <![CDATA[Test is success:VerifyRegistration]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\VerifyRegistration_19_04_2018_12_11_39.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\VerifyRegistration_19_04_2018_12_11_39.png' height='100' width='100'/></a>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2018-04-18T18:39:29Z" name="Regression Suite" finished-at="2018-04-18T18:41:40Z" duration-ms="130504">
+  <suite started-at="2018-04-23T03:16:38Z" name="Default suite" finished-at="2018-04-23T03:17:03Z" duration-ms="24909">
     <groups>
     </groups>
-    <test started-at="2018-04-18T18:39:29Z" name="TC002_VerifyRegistration" finished-at="2018-04-18T18:41:40Z" duration-ms="130504">
-      <class name="com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration@2abf4075]" started-at="2018-04-19T00:09:29Z" name="setup" finished-at="2018-04-19T00:09:57Z" duration-ms="27715" status="PASS">
+    <test started-at="2018-04-23T03:16:38Z" name="Default test" finished-at="2018-04-23T03:17:03Z" duration-ms="24909">
+      <class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart@6a370f4]" started-at="2018-04-23T08:46:38Z" name="setup" finished-at="2018-04-23T08:46:57Z" duration-ms="18981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyRegistration()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration@2abf4075]" started-at="2018-04-19T00:09:57Z" name="VerifyRegistration" finished-at="2018-04-19T00:11:39Z" duration-ms="101826" status="PASS">
+        <test-method signature="VerifyAddToCart()[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart@6a370f4]" started-at="2018-04-23T08:46:57Z" name="VerifyAddToCart" finished-at="2018-04-23T08:47:01Z" duration-ms="3774" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Test started running:VerifyRegistration]]>
-            </line>
-            <line>
-              <![CDATA[Test is success:VerifyRegistration]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\VerifyRegistration_19_04_2018_12_11_39.png'><img src='C:\Automation\Jan18\FirstMavenProject\uiAutomation\src\main\java\com\test\automation\uiAutomation\success_screenshots\VerifyRegistration_19_04_2018_12_11_39.png' height='100' width='100'/></a>]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- VerifyRegistration -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration@2abf4075]" started-at="2018-04-19T00:11:39Z" name="endTest" finished-at="2018-04-19T00:11:40Z" duration-ms="228" status="PASS">
+        </test-method> <!-- VerifyAddToCart -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart@6a370f4]" started-at="2018-04-23T08:47:01Z" name="endTest" finished-at="2018-04-23T08:47:03Z" duration-ms="2126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration -->
-    </test> <!-- TC002_VerifyRegistration -->
-  </suite> <!-- Regression Suite -->
+      </class> <!-- com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

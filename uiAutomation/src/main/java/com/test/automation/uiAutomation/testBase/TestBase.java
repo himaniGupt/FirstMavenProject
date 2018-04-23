@@ -91,6 +91,12 @@ public class TestBase {
 		}
 	}
 	
+	public void closeBrowser()
+	{
+		driver.close();
+		log.info("browser closed");
+	}
+	
 //	public void waitForElement(int timeOutInSeconds, WebElement element)
 //	{
 //		
