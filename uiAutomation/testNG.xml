@@ -2,12 +2,23 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Regression Suite">
-<listeners>
-<listener class-name="com.test.automation.uiAutomation.customListener.Listener"></listener>
-</listeners>
-<test name="TC002_VerifyRegistration">
+<!-- <listeners> -->
+<!-- <listener class-name="com.test.automation.uiAutomation.customListener.Listener"></listener> -->
+<!-- </listeners> -->
+<test name="HomePageTest">
 <classes>
 <class name="com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration"></class>
+<class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords"></class>
+<class name="com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials"></class>
+<class name="com.test.automation.uiAutomation.homepage.TC004_VerifyNavigationToApparelPage"></class>
 </classes>
 </test>
+
+<test name="AddToCartTest">
+<classes>
+<class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart"></class>
+<class name="com.test.automation.uiAutomation.addToCart.TC002_VerifyTweetLink"></class>
+</classes>
+</test>
+
 </suite>

@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.test.automation.uiAutomation.testBase.TestBase;
 
@@ -21,22 +22,27 @@ public class ProductDetailsPage extends TestBase{
 	public final String PrintedSummerDress = "Printed Summer Dress";
 	public final String FadedShortSleeveTshirts = "Faded Short Sleeve T-shirts";
 	
-	public ProductDetailsPage(WebDriver driver)
+	public ProductDetailsPage(EventFiringWebDriver driver)
 	{
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
+//	public ProductDetailsPage()
+//	{
+////		this.driver = driver;
+//		PageFactory.initElements(driver, this);
+//	}
+	
 	@FindBy(xpath="//div[@class='product-container']")
 	List<WebElement> products;
 	
-	@FindBy(xpath="//p[@id='add_to_cart']/button[@name='Submit']")
-	WebElement addToCartButton;
+	
 	
 	public void selectProduct(String product)
 	{
 		driver.findElement(By.xpath("//div[@class='product-container']//a[contains(text(),'"+product+"')]")).click();
-		log.info(product+" has been selected");
+		log(product+" has been selected");
 	}
 	
 	public List<WebElement> selectProduct()
@@ -45,8 +51,7 @@ public class ProductDetailsPage extends TestBase{
 		return products_list;
 	}
 	
-	public void clickOnAddToCart()
-	{
-		addToCartButton.click();
-	}
+	
+	
+	
 }

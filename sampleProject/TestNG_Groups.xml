@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteGroup">
+<test name="Test">
+<groups>
+<run>
+<include name="regression"></include>
+<include name="sanity"></include>
+</run>
+</groups>
+
+<classes>
+<class name="samplePackage.sampleProject2.toVerifyTestNgAnnotations2"></class>
+<class name="samplePackage.sampleProject.toVerifyTestNgMoreAnnotations"></class>
+<class name="samplePackage.sampleProject2.toVerifyTestNgMoreAnnotations2"></class>
+<class name="samplePackage.sampleProject.toVerifyTestNgAnnotations"></class>
+
+</classes>
+</test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteParallel" parallel="instances" thread-count="1" preserve-order="true">
+<test name="TestParallel1">
+<classes>
+<class name="samplePackage.sampleProject2.toVerifyTestNgAnnotations2"></class>
+<class name="samplePackage.sampleProject.toVerifyTestNgAnnotations"></class>
+</classes>
+</test>
+
+<test name="TestParallel2">
+<classes>
+<class name="samplePackage.sampleProject2.toVerifyTestNgMoreAnnotations2"></class>
+<class name="samplePackage.sampleProject.toVerifyTestNgMoreAnnotations"></class>
+</classes>
+</test>
+</suite>
