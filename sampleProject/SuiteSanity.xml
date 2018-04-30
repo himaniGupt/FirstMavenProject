@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sanity Suite">
+<test name="sampleProjectTestsANDsampleProject2Tests">
+<classes>
+<class name="samplePackage.sampleProject2.toVerifyTestNgAnnotations2"></class>
+<class name="samplePackage.sampleProject.toVerifyTestNgMoreAnnotations"></class>
+</classes>
+</test>
+
+</suite>

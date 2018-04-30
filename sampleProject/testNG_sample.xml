@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FinalSuite">
+<suite-files>
+
+<suite-file path="./SuiteRegression.xml"></suite-file>
+<suite-file path="./SuiteSanity.xml"></suite-file>
+
+</suite-files>
+</suite>

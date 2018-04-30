@@ -3,6 +3,8 @@ package com.test.automation.uiAutomation.testBase;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Iterator;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -13,11 +15,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
 import com.test.automation.uiAutomation.customListener.Listener;
+import com.test.automation.uiAutomation.customListener.WebEventListener;
 import com.test.automation.uiAutomation.excelReader.Excel_Reader;
 import org.apache.commons.io.FileUtils;
 
@@ -25,11 +29,13 @@ public class TestBase {
 
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	
-	public static WebDriver driver;
+	public static WebDriver dr;
 	//String browser = "firefox";
 	//String url = "http://automationpractice.com/index.php";
 	Excel_Reader excel;
 	Listener listener;
+	public EventFiringWebDriver driver;
+	WebEventListener eventListener;
 	
 	public void init(String browser, String url)
 	{
@@ -45,20 +51,27 @@ public class TestBase {
 		if(browser.equalsIgnoreCase("firefox"))
 		{
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/drivers/geckodriver.exe");
-			log.info("Creating object of "+browser);
-			driver = new FirefoxDriver();
+			log("Creating object of "+browser);
+			dr = new FirefoxDriver();
+			driver = new EventFiringWebDriver(dr);
+			eventListener = new WebEventListener();
+			driver.register(eventListener);
 		}
 		else if(browser.equalsIgnoreCase("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver.exe");
-			log.info("Creating object of "+browser);
-			driver = new ChromeDriver();
+			log("Creating object of "+browser);
+			dr = new ChromeDriver();
+			driver = new EventFiringWebDriver(dr);
+			eventListener = new WebEventListener();
+			driver.register(eventListener);
+			
 		}
 	}
 	
 	public void getUrl(String url)
 	{
-		log.info("Navigating to "+url);
+		log("Navigating to "+url);
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -94,13 +107,26 @@ public class TestBase {
 	public void closeBrowser()
 	{
 		driver.close();
-		log.info("browser closed");
+		log("browser closed");
 	}
 	
+	public Iterator<String> getAllWindows()
+	{
+		Set<String> windows = driver.getWindowHandles();
+		Iterator<String> itr = windows.iterator();
+		
+		return itr;
+	}
 //	public void waitForElement(int timeOutInSeconds, WebElement element)
 //	{
 //		
 //		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
 //		wait.until(ExpectedConditions.visibilityOf(element));
 //	}
+	
+	public void log(String data)
+	{
+		log.info(data);
+		Reporter.log(data);
+	}
 }

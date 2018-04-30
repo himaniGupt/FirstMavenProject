@@ -9,7 +9,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 
 import com.test.automation.uiAutomation.testBase.TestBase;
 
@@ -93,9 +95,15 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//div[@id='center_column']/h1")
 	WebElement myAccountTag;
 	
-	public HomePage(WebDriver driver)
+//	public HomePage(WebDriver driver)
+//	{
+//		this.driver=driver;
+//		PageFactory.initElements(driver, this);
+//	}
+	
+	public HomePage(EventFiringWebDriver driver)
 	{
-		this.driver=driver;
+		this.driver= driver;
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -103,30 +111,30 @@ public class HomePage extends TestBase{
 	public void loginToApplication(String emailAddress, String password)
 	{
 		signIn.click();
-		log.info("Clicked on SignIn and object is "+signIn.toString());
+		log("Clicked on SignIn and object is "+signIn.toString());
 		loginEmailAddress.sendKeys(emailAddress);
-		log.info("Entered email address: "+emailAddress+ " and object is "+loginEmailAddress.toString());
+		log("Entered email address: "+emailAddress+ " and object is "+loginEmailAddress.toString());
 		loginPassword.sendKeys(password);
-		log.info("Entered password: "+password+" and object is "+loginPassword.toString());
+		log("Entered password: "+password+" and object is "+loginPassword.toString());
 		loginButton.click();
-		log.info("Clicked on submit button and object is "+loginButton.toString());
+		log("Clicked on submit button and object is "+loginButton.toString());
 	}
 	
 	public String getInvalidLoginText()
 	{
-		log.info("Error message is "+authenticationFailed.getText());
+		log("Error message is "+authenticationFailed.getText());
 		return authenticationFailed.getText();
 	}
 	
 	public void verifyRegistration(String email,String firstName,String lastName,String password,String day,String month,String year,String address,String city,String state,String zipcode,String mobPhone,String addressAlias)
 	{
 		signIn.click();
-		log.info("Clicked on SignIn and object is "+signIn.toString());
+		log("Clicked on SignIn and object is "+signIn.toString());
 		createEmail.clear();
 		createEmail.sendKeys(email);
-		log.info("Entered email and object is "+createEmail.toString());
+		log("Entered email and object is "+createEmail.toString());
 		createAccountButton.click();
-		log.info("Clicked on create account button and onject is "+createAccountButton.toString());
+		log("Clicked on create account button and onject is "+createAccountButton.toString());
 		titleMrsRadioButton.click();
 		this.firstName.clear();
 		this.firstName.sendKeys(firstName);
@@ -134,14 +142,14 @@ public class HomePage extends TestBase{
 		this.lastName.sendKeys(lastName);
 		this.password.clear();
 		this.password.sendKeys(password);
-		log.info("Entered password and object is "+this.password.toString());
+		log("Entered password and object is "+this.password.toString());
 		Select selectDay = new Select(dayDOB);
 		selectDay.selectByVisibleText(day);
 		Select selectMonth = new Select(monthDOB);
 		selectMonth.selectByVisibleText(month);
 		Select selectYear = new Select(yearsDOB);
 		selectYear.selectByVisibleText(year);
-		log.info("Selected year and object is "+selectYear.toString());
+		log("Selected year and object is "+selectYear.toString());
 		this.address.clear();
 		this.address.sendKeys(address);
 		this.city.clear();
@@ -150,7 +158,7 @@ public class HomePage extends TestBase{
 		selectState.selectByValue(state);
 		this.zipcode.clear();
 		this.zipcode.sendKeys(zipcode);
-		log.info("Enterted zipcode and object is "+this.zipcode.toString());
+		log("Enterted zipcode and object is "+this.zipcode.toString());
 		this.mobPhone.sendKeys(mobPhone);
 		this.addressAlias.clear();
 		this.addressAlias.sendKeys(addressAlias);
@@ -162,7 +170,7 @@ public class HomePage extends TestBase{
 	{
 			if(myAccountTag.isDisplayed())
 			{
-				log.info("User has successfully logged into his/her account");
+				log("User has successfully logged into his/her account");
 				return true;
 			}
 			else
@@ -174,20 +182,20 @@ public class HomePage extends TestBase{
 		
 		//waitForElement(30, logOut);
 		logOut.click();
-		log.info("Clicked on SignOut button and object is "+logOut.toString());
+		log("Clicked on SignOut button and object is "+logOut.toString());
 	}
 	
 	public void clickOnNavigationMenu(String menuOption)
 	{
 		Actions act = new Actions(driver);
 		act.moveToElement(driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='"+menuOption+"']"))).build().perform();
-		log.info("Mouse hover over option: "+menuOption);
+		log("Mouse hover over option: "+menuOption);
 		//ul[class^='sf-menu']>li>a[title='Women']-> menuOption=Women
 		//ul[class^='sf-menu']>li>a[title='Dresses'] -> menuOption=Dresses
 		//ul[class^='sf-menu']>li>a[title='T-shirts'] -> menuOption=T-Shirts
 		if(menuOption.equals("T-Shirts")) {
 			driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='"+menuOption+"']")).click();
-			log.info("Clicked on option: "+menuOption);
+			log("Clicked on option: "+menuOption);
 		}
 	}
 	
@@ -195,7 +203,7 @@ public class HomePage extends TestBase{
 	{
 		Actions act = new Actions(driver);
 		act.click(driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='"+apparelOption+"']"))).build().perform();
-		log.info("Clicked on apparel option: "+apparelOption+" in Women section");
+		log("Clicked on apparel option: "+apparelOption+" in Women section");
 		//"ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='Casual Dresses']" -> apparelOption=Casual Dresses
 		//"ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='Casual Dresses']" -> apparelOption=Blouses
 	}
@@ -204,8 +212,14 @@ public class HomePage extends TestBase{
 	{
 		Actions act = new Actions(driver);
 		act.click(driver.findElement(By.cssSelector("ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='"+apparelOption+"']"))).build().perform();
-		log.info("Clicked on apparel option: "+apparelOption+" in Dresses section");
+		log("Clicked on apparel option: "+apparelOption+" in Dresses section");
 		//ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='Summer Dresses'] -> apparelOption=Casual Dresses
 		//ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='Summer Dresses'] -> apparelOption=Summer Dresses
+	}
+	
+	public void log(String data)
+	{
+		log.info(data);
+		Reporter.log(data);
 	}
 }

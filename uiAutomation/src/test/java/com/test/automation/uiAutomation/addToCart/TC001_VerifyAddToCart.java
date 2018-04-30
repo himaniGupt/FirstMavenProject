@@ -5,12 +5,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.test.automation.uiAutomation.testBase.TestBase;
+import com.test.automation.uiAutomation.uiActions.AddToCart;
 import com.test.automation.uiAutomation.uiActions.HomePage;
 import com.test.automation.uiAutomation.uiActions.ProductDetailsPage;
 
 public class TC001_VerifyAddToCart extends TestBase{
 	HomePage homepage;
 	ProductDetailsPage productDetailsPage;
+	AddToCart addToCart;
 	
 	@BeforeClass
 	public void setup()
@@ -23,11 +25,15 @@ public class TC001_VerifyAddToCart extends TestBase{
 	{
 		log.info("********Starting VerifyAddToCart**************");
 		homepage = new HomePage(driver);
+		
 		homepage.clickOnNavigationMenu(homepage.dresses);
 		homepage.clickOnProductInDressesSection(homepage.casualDress);
+//		productDetailsPage = new ProductDetailsPage(driver);
 		productDetailsPage = new ProductDetailsPage(driver);
 		productDetailsPage.selectProduct(productDetailsPage.PrintedDress);
-		productDetailsPage.clickOnAddToCart();
+//		addToCart = new AddToCart(driver);
+		addToCart = new AddToCart(driver);
+		addToCart.clickOnAddToCart();
 		//Thread.sleep(10000);
 		log.info("**********Finished VerifyAddToCart***********");
 	}

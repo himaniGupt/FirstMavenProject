@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite">
+<test name="sampleProjectTests">
+<classes>
+<class name="samplePackage.sampleProject.toVerifyTestNgAnnotations"></class>
+<class name="samplePackage.sampleProject.toVerifyTestNgMoreAnnotations"></class>
+</classes>
+</test>
+
+<test name="sampleProjects2Tests">
+<classes>
+<class name="samplePackage.sampleProject2.toVerifyTestNgAnnotations2"></class>
+<class name="samplePackage.sampleProject2.toVerifyTestNgMoreAnnotations2"></class>
+</classes>
+</test>
+
+</suite>
