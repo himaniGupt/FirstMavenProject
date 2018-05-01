@@ -1,5 +1,7 @@
 package com.test.automation.uiAutomation.homepage;
 
+import java.io.IOException;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.AfterClass;
@@ -14,9 +16,9 @@ public class TC004_VerifyNavigationToApparelPage extends TestBase {
 	public static final Logger log = Logger.getLogger(TC004_VerifyNavigationToApparelPage.class.getName());
 	
 	@BeforeClass
-	public void setup()
+	public void setup() throws IOException
 	{
-		init("chrome","http://automationpractice.com/index.php");
+		init();
 	}
 	
 	@Test

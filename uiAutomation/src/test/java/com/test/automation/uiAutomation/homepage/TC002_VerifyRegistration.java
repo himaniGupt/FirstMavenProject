@@ -1,5 +1,7 @@
 package com.test.automation.uiAutomation.homepage;
 
+import java.io.IOException;
+
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -16,9 +18,9 @@ public class TC002_VerifyRegistration extends TestBase {
 	
 	
 	@BeforeTest
-	public void setup()
+	public void setup() throws IOException
 	{
-		init("chrome","http://automationpractice.com/index.php");
+		init();
 		
 	}
 	

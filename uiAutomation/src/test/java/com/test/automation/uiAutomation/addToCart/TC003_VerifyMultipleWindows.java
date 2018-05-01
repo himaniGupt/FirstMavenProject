@@ -1,5 +1,6 @@
 package com.test.automation.uiAutomation.addToCart;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -15,9 +16,9 @@ public class TC003_VerifyMultipleWindows extends TestBase{
 	List<String> windowId = new ArrayList<String>();
 	
 	@BeforeClass
-	public void setup()
+	public void setup() throws IOException
 	{
-		init("chrome", "http://automationpractice.com/index.php");
+		init();
 	}
 	
 	@Test

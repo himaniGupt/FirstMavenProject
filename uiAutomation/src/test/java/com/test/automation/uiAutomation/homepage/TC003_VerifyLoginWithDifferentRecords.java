@@ -1,5 +1,7 @@
 package com.test.automation.uiAutomation.homepage;
 
+import java.io.IOException;
+
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.SkipException;
@@ -25,9 +27,9 @@ public class TC003_VerifyLoginWithDifferentRecords extends TestBase{
 	
 	
 	@BeforeClass
-	public void setup()
+	public void setup() throws IOException
 	{
-		init("chrome", "http://automationpractice.com/index.php");
+		init();
 	}
 	
 	

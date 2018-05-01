@@ -1,9 +1,13 @@
 package com.test.automation.uiAutomation.testBase;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Iterator;
+import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -36,14 +40,24 @@ public class TestBase {
 	Listener listener;
 	public EventFiringWebDriver driver;
 	WebEventListener eventListener;
+	Properties OR;
 	
-	public void init(String browser, String url)
+	public void init() throws IOException
 	{
-		selectBrowser(browser);
-		getUrl(url);
+		getDataFromConfig();
+		selectBrowser(OR.getProperty("browser"));
+		getUrl(OR.getProperty("url"));
 		String log4jConfPath = "log4j.properties";
 		PropertyConfigurator.configure(log4jConfPath);
 	//	listener = new Listener(driver);
+	}
+	
+	public void getDataFromConfig() throws IOException
+	{
+		OR = new Properties();
+		File file = new File(System.getProperty("user.dir")+"/src/main/java/com/test/automation/uiAutomation/config/config.properties");
+		FileInputStream f = new FileInputStream(file);
+		OR.load(f);
 	}
 	
 	public void selectBrowser(String browser)

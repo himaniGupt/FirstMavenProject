@@ -1288,3 +1288,65 @@ Driver info: driver.version: EventFiringWebDriver
 2018-04-25 10:03:06 INFO  WebEventListener:122 - Found element By: By.cssSelector: h2[class='action-information']
 2018-04-25 10:03:11 INFO  TestBase:51 - **********Finished VerifyAddToCart***********
 2018-04-25 10:03:11 INFO  TestBase:110 - browser closed
+2018-05-01 20:53:23 INFO  TestBase:26 - ********Starting VerifyAddToCart**************
+2018-05-01 20:53:23 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Dresses']
+2018-05-01 20:53:23 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-01 20:53:23 INFO  HomePage:222 - Mouse hover over option: Dresses
+2018-05-01 20:53:23 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='Casual Dresses']
+2018-05-01 20:53:23 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-01 20:53:24 INFO  HomePage:222 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-05-01 20:53:24 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]
+2018-05-01 20:53:24 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (94bc8546a3b5e49311f577f2c9d1cc0e)] -> xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]]
+2018-05-01 20:53:27 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (94bc8546a3b5e49311f577f2c9d1cc0e)] -> xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]]
+2018-05-01 20:53:27 INFO  TestBase:129 - Printed Dress has been selected
+2018-05-01 20:53:27 INFO  WebEventListener:122 - Found element By: By.xpath: //p[@id='add_to_cart']/button[@name='Submit']
+2018-05-01 20:53:27 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (94bc8546a3b5e49311f577f2c9d1cc0e)] -> xpath: //p[@id='add_to_cart']/button[@name='Submit']]
+2018-05-01 20:53:27 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (94bc8546a3b5e49311f577f2c9d1cc0e)] -> xpath: //p[@id='add_to_cart']/button[@name='Submit']]
+2018-05-01 20:53:27 INFO  WebEventListener:122 - Found element By: By.xpath: //p[@id='add_to_cart']/button[@name='Submit']
+2018-05-01 20:53:27 INFO  TestBase:129 - Clicked on add to cart button and object is Add to cart
+2018-05-01 20:53:27 INFO  TestBase:38 - **********Finished VerifyAddToCart***********
+2018-05-01 20:53:27 INFO  TestBase:129 - browser closed
+2018-05-01 22:52:30 INFO  TestBase:28 - ********Starting VerifyAddToCart**************
+2018-05-01 22:52:30 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Dresses']
+2018-05-01 22:52:30 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-01 22:52:30 INFO  HomePage:222 - Mouse hover over option: Dresses
+2018-05-01 22:52:30 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='Casual Dresses']
+2018-05-01 22:52:30 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-01 22:52:30 INFO  HomePage:222 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-05-01 22:52:30 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]
+2018-05-01 22:52:30 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (1e74d00c28a0facb60015c83c49ebbd1)] -> xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]]
+2018-05-01 22:52:33 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (1e74d00c28a0facb60015c83c49ebbd1)] -> xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]]
+2018-05-01 22:52:33 INFO  TestBase:143 - Printed Dress has been selected
+2018-05-01 22:52:33 INFO  WebEventListener:122 - Found element By: By.xpath: //p[@id='add_to_cart']/button[@name='Submit']
+2018-05-01 22:52:33 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (1e74d00c28a0facb60015c83c49ebbd1)] -> xpath: //p[@id='add_to_cart']/button[@name='Submit']]
+2018-05-01 22:52:33 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (1e74d00c28a0facb60015c83c49ebbd1)] -> xpath: //p[@id='add_to_cart']/button[@name='Submit']]
+2018-05-01 22:52:33 INFO  WebEventListener:122 - Found element By: By.xpath: //p[@id='add_to_cart']/button[@name='Submit']
+2018-05-01 22:52:33 INFO  TestBase:143 - Clicked on add to cart button and object is Add to cart
+2018-05-01 22:52:33 INFO  TestBase:40 - **********Finished VerifyAddToCart***********
+2018-05-01 22:52:33 INFO  TestBase:143 - browser closed
+2018-05-01 22:54:36 INFO  TC004_VerifyNavigationToApparelPage:27 - ***********Starting TC004_VerifyNavigationToApparelPage***********
+2018-05-01 22:54:36 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Women']
+2018-05-01 22:54:36 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-01 22:54:36 INFO  HomePage:222 - Mouse hover over option: Women
+2018-05-01 22:54:37 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='Blouses']
+2018-05-01 22:54:37 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-01 22:54:40 INFO  HomePage:222 - Clicked on apparel option: Blouses in Women section
+2018-05-01 22:54:40 INFO  TC004_VerifyNavigationToApparelPage:33 - ***********Finishing TC004_VerifyNavigationToApparelPage**********

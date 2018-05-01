@@ -1,5 +1,7 @@
 package com.test.automation.uiAutomation.addToCart;
 
+import java.io.IOException;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -15,9 +17,9 @@ public class TC001_VerifyAddToCart extends TestBase{
 	AddToCart addToCart;
 	
 	@BeforeClass
-	public void setup()
+	public void setup() throws IOException
 	{
-		init("chrome","http://automationpractice.com/index.php");
+		init();
 	}
 	
 	@Test

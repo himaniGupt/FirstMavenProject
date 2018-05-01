@@ -1,5 +1,6 @@
 package com.test.automation.uiAutomation.addToCart;
 
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -19,9 +20,9 @@ public class TC002_VerifyTweetLink extends TestBase{
 	ProductDetailsPage productDetailsPage;
 	
 	@BeforeClass
-	public void setup()
+	public void setup() throws IOException
 	{
-		init("chrome", "http://automationpractice.com/index.php");
+		init();
 	}
 	
 	@Test
