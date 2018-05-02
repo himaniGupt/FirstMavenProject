@@ -5,9 +5,11 @@
     <classes>
       <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
         <methods>
+          <include name="beforeMethod"/>
           <include name="TestLogin" invocation-numbers="3 4"/>
           <include name="setup"/>
           <include name="endTest"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords -->
     </classes>

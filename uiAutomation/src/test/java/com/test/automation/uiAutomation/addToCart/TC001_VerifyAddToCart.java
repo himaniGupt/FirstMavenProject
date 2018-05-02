@@ -40,11 +40,11 @@ public class TC001_VerifyAddToCart extends TestBase{
 		log.info("**********Finished VerifyAddToCart***********");
 	}
 	
-	@AfterClass
-	public void endTest()
-	{
-		closeBrowser();
-		
-	}
+//	@AfterClass
+//	public void endTest()
+//	{
+//		closeBrowser();
+//		
+//	}
 
 }

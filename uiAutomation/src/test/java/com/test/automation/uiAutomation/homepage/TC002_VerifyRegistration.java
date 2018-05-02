@@ -35,10 +35,5 @@ public class TC002_VerifyRegistration extends TestBase {
 		log.info("*******************Finished TC002_VerifyRegistration******************************");
 	}
 	
-	@AfterClass
-	public void endTest()
-	{
-		
-		driver.close();
-	}
+	
 }

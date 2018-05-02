@@ -35,10 +35,10 @@ public class TC003_VerifyMultipleWindows extends TestBase{
 		driver.switchTo().window(windowId.get(8));
 	}
 	
-	@AfterClass
-	public void endTest()
-	{
-		closeBrowser();
-	}
+//	@AfterClass
+//	public void endTest()
+//	{
+//		closeBrowser();
+//	}
 	
 }

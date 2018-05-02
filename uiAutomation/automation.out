@@ -1350,3 +1350,901 @@ System info: host: 'HIMANI', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 
 Driver info: driver.version: EventFiringWebDriver
 2018-05-01 22:54:40 INFO  HomePage:222 - Clicked on apparel option: Blouses in Women section
 2018-05-01 22:54:40 INFO  TC004_VerifyNavigationToApparelPage:33 - ***********Finishing TC004_VerifyNavigationToApparelPage**********
+2018-05-02 15:38:55 INFO  TC002_VerifyRegistration:30 - ********************Starting TC002_VerifyRegistration***************************
+2018-05-02 15:38:55 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 15:38:55 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:39:24 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:39:25 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 15:39:25 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:39:25 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email_create']
+2018-05-02 15:39:25 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='email_create']]
+2018-05-02 15:39:25 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email_create']
+2018-05-02 15:39:25 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='email_create']]
+2018-05-02 15:39:25 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email_create']
+2018-05-02 15:39:25 INFO  HomePage:222 - Entered email and object is [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='email_create']]
+2018-05-02 15:39:25 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitCreate']
+2018-05-02 15:39:25 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //button[@id='SubmitCreate']]
+2018-05-02 15:39:25 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //button[@id='SubmitCreate']]
+2018-05-02 15:39:25 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitCreate']
+2018-05-02 15:39:25 INFO  HomePage:222 - Clicked on create account button and onject is [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //button[@id='SubmitCreate']]
+2018-05-02 15:39:28 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='id_gender2']
+2018-05-02 15:39:28 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='id_gender2']]
+2018-05-02 15:39:28 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='id_gender2']]
+2018-05-02 15:39:28 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_firstname']
+2018-05-02 15:39:28 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='customer_firstname']]
+2018-05-02 15:39:28 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_firstname']
+2018-05-02 15:39:28 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='customer_firstname']]
+2018-05-02 15:39:28 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_lastname']
+2018-05-02 15:39:28 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='customer_lastname']]
+2018-05-02 15:39:28 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_lastname']
+2018-05-02 15:39:29 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='customer_lastname']]
+2018-05-02 15:39:29 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:39:29 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:39:29 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:39:29 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:39:29 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:39:29 INFO  HomePage:222 - Entered password and object is [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:39:29 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 15:39:29 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 15:39:29 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 15:39:59 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[normalize-space(.) = "4  "]
+2018-05-02 15:39:59 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 15:39:59 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[contains(., "4")]
+2018-05-02 15:39:59 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //select[@id='days']]] -> xpath: .//option[contains(., "4")]]
+2018-05-02 15:39:59 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //select[@id='days']]] -> xpath: .//option[contains(., "4")]]
+2018-05-02 15:39:59 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 15:39:59 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 15:39:59 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 15:40:29 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[normalize-space(.) = "April "]
+2018-05-02 15:40:29 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 15:40:29 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[contains(., "April")]
+2018-05-02 15:40:29 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //select[@id='months']]] -> xpath: .//option[contains(., "April")]]
+2018-05-02 15:40:29 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //select[@id='months']]] -> xpath: .//option[contains(., "April")]]
+2018-05-02 15:40:29 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 15:40:29 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 15:40:29 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 15:40:59 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[normalize-space(.) = "1990  "]
+2018-05-02 15:40:59 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 15:40:59 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[contains(., "1990")]
+2018-05-02 15:40:59 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //select[@id='years']]] -> xpath: .//option[contains(., "1990")]]
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //select[@id='years']]] -> xpath: .//option[contains(., "1990")]]
+2018-05-02 15:41:00 INFO  HomePage:222 - Selected year and object is org.openqa.selenium.support.ui.Select@247667dd
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='address1']
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='address1']]
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='address1']
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='address1']]
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='city']
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='city']]
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='city']
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='city']]
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='id_state']
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='id_state']
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='id_state']
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[@value = "2"]
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //select[@id='id_state']]] -> xpath: .//option[@value = "2"]]
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //select[@id='id_state']]] -> xpath: .//option[@value = "2"]]
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='postcode']
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='postcode']]
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='postcode']
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='postcode']]
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='postcode']
+2018-05-02 15:41:00 INFO  HomePage:222 - Enterted zipcode and object is [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='postcode']]
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='phone_mobile']
+2018-05-02 15:41:00 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='phone_mobile']]
+2018-05-02 15:41:01 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='alias']
+2018-05-02 15:41:01 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='alias']]
+2018-05-02 15:41:01 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='alias']
+2018-05-02 15:41:01 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //input[@id='alias']]
+2018-05-02 15:41:01 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='submitAccount']
+2018-05-02 15:41:01 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //button[@id='submitAccount']]
+2018-05-02 15:41:07 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (bb2a0a0234abe79bfbf430dacd5c0878)] -> xpath: //button[@id='submitAccount']]
+2018-05-02 15:41:07 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@id='center_column']/h1
+2018-05-02 15:41:07 INFO  HomePage:222 - User has successfully logged into his/her account
+2018-05-02 15:41:07 INFO  TC002_VerifyRegistration:35 - *******************Finished TC002_VerifyRegistration******************************
+2018-05-02 15:41:07 INFO  TestBase:181 - browser closed
+2018-05-02 15:47:53 INFO  TestBase:181 - Creating object of chrome
+2018-05-02 15:47:56 INFO  TestBase:181 - Navigating to http://automationpractice.com/index.php
+2018-05-02 15:49:27 INFO  WebEventListener:122 - Navigate to: 'http://automationpractice.com/index.php'
+2018-05-02 15:49:29 INFO  TC002_VerifyRegistration:30 - ********************Starting TC002_VerifyRegistration***************************
+2018-05-02 15:49:29 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 15:49:29 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:49:32 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:49:32 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 15:49:32 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:49:32 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email_create']
+2018-05-02 15:49:32 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='email_create']]
+2018-05-02 15:49:32 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email_create']
+2018-05-02 15:49:32 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='email_create']]
+2018-05-02 15:49:32 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email_create']
+2018-05-02 15:49:32 INFO  HomePage:222 - Entered email and object is [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='email_create']]
+2018-05-02 15:49:32 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitCreate']
+2018-05-02 15:49:32 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //button[@id='SubmitCreate']]
+2018-05-02 15:49:32 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //button[@id='SubmitCreate']]
+2018-05-02 15:49:32 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitCreate']
+2018-05-02 15:49:32 INFO  HomePage:222 - Clicked on create account button and onject is [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //button[@id='SubmitCreate']]
+2018-05-02 15:49:34 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='id_gender2']
+2018-05-02 15:49:34 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='id_gender2']]
+2018-05-02 15:49:34 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='id_gender2']]
+2018-05-02 15:49:34 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_firstname']
+2018-05-02 15:49:34 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='customer_firstname']]
+2018-05-02 15:49:34 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_firstname']
+2018-05-02 15:49:34 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='customer_firstname']]
+2018-05-02 15:49:34 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_lastname']
+2018-05-02 15:49:34 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='customer_lastname']]
+2018-05-02 15:49:34 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_lastname']
+2018-05-02 15:49:34 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='customer_lastname']]
+2018-05-02 15:49:35 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:49:35 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:49:35 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:49:35 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:49:35 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:49:35 INFO  HomePage:222 - Entered password and object is [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:49:35 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 15:49:35 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 15:49:35 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 15:50:05 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[normalize-space(.) = "4  "]
+2018-05-02 15:50:05 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 15:50:05 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[contains(., "4")]
+2018-05-02 15:50:05 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //select[@id='days']]] -> xpath: .//option[contains(., "4")]]
+2018-05-02 15:50:05 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //select[@id='days']]] -> xpath: .//option[contains(., "4")]]
+2018-05-02 15:50:05 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 15:50:05 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 15:50:05 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 15:50:35 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[normalize-space(.) = "April "]
+2018-05-02 15:50:35 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 15:50:35 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[contains(., "April")]
+2018-05-02 15:50:35 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //select[@id='months']]] -> xpath: .//option[contains(., "April")]]
+2018-05-02 15:50:35 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //select[@id='months']]] -> xpath: .//option[contains(., "April")]]
+2018-05-02 15:50:35 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 15:50:35 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 15:50:35 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 15:51:05 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[normalize-space(.) = "1990  "]
+2018-05-02 15:51:05 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 15:51:05 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[contains(., "1990")]
+2018-05-02 15:51:05 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //select[@id='years']]] -> xpath: .//option[contains(., "1990")]]
+2018-05-02 15:51:05 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //select[@id='years']]] -> xpath: .//option[contains(., "1990")]]
+2018-05-02 15:51:05 INFO  HomePage:222 - Selected year and object is org.openqa.selenium.support.ui.Select@3cd59ef5
+2018-05-02 15:51:05 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='address1']
+2018-05-02 15:51:05 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='address1']]
+2018-05-02 15:51:05 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='address1']
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='address1']]
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='city']
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='city']]
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='city']
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='city']]
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='id_state']
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='id_state']
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='id_state']
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[@value = "2"]
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //select[@id='id_state']]] -> xpath: .//option[@value = "2"]]
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //select[@id='id_state']]] -> xpath: .//option[@value = "2"]]
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='postcode']
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='postcode']]
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='postcode']
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='postcode']]
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='postcode']
+2018-05-02 15:51:06 INFO  HomePage:222 - Enterted zipcode and object is [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='postcode']]
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='phone_mobile']
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='phone_mobile']]
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='alias']
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='alias']]
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='alias']
+2018-05-02 15:51:06 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //input[@id='alias']]
+2018-05-02 15:51:07 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='submitAccount']
+2018-05-02 15:51:07 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //button[@id='submitAccount']]
+2018-05-02 15:51:09 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (6460515a3b342d1e2f2320290bdd1278)] -> xpath: //button[@id='submitAccount']]
+2018-05-02 15:51:09 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@id='center_column']/h1
+2018-05-02 15:51:09 INFO  HomePage:222 - User has successfully logged into his/her account
+2018-05-02 15:51:09 INFO  TC002_VerifyRegistration:35 - *******************Finished TC002_VerifyRegistration******************************
+2018-05-02 15:51:09 INFO  TestBase:181 - browser closed
+2018-05-02 15:51:10 INFO  TestBase:181 - Creating object of chrome
+2018-05-02 15:51:13 INFO  TestBase:181 - Navigating to http://automationpractice.com/index.php
+2018-05-02 15:51:23 INFO  WebEventListener:122 - Navigate to: 'http://automationpractice.com/index.php'
+2018-05-02 15:51:25 INFO  TC003_VerifyLoginWithDifferentRecords:44 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-05-02 15:51:25 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 15:51:25 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:51:28 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:51:28 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 15:51:28 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:51:28 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 15:51:28 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //input[@id='email']]
+2018-05-02 15:51:28 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 15:51:28 INFO  HomePage:222 - Entered email address: testautomation4@gmail.com and object is [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //input[@id='email']]
+2018-05-02 15:51:28 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:51:28 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:51:28 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:51:28 INFO  HomePage:222 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:51:28 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitLogin']
+2018-05-02 15:51:28 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 15:51:30 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 15:52:00 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='SubmitLogin']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e90223188dd5a0e53f8b0e10fa55acb9
+*** Element info: {Using=xpath, value=//button[@id='SubmitLogin']}
+2018-05-02 15:52:00 INFO  HomePage:222 - Clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2018-05-02 15:52:00 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@id='center_column']/h1
+2018-05-02 15:52:00 INFO  HomePage:222 - User has successfully logged into his/her account
+2018-05-02 15:52:01 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='logout']
+2018-05-02 15:52:01 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='logout']]
+2018-05-02 15:52:03 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='logout']]
+2018-05-02 15:52:33 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='logout']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e90223188dd5a0e53f8b0e10fa55acb9
+*** Element info: {Using=xpath, value=//a[@class='logout']}
+2018-05-02 15:52:33 INFO  HomePage:222 - Clicked on SignOut button and object is Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout']'
+2018-05-02 15:52:33 INFO  TC003_VerifyLoginWithDifferentRecords:55 - *******************Finished TC003_VerifyLoginWithDifferentRecords******************************
+2018-05-02 15:52:33 INFO  TC003_VerifyLoginWithDifferentRecords:44 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-05-02 15:52:33 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 15:52:33 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:52:35 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:52:35 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 15:52:35 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:52:35 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 15:52:36 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //input[@id='email']]
+2018-05-02 15:52:36 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 15:52:36 INFO  HomePage:222 - Entered email address: testautomation5@gmail.com and object is [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //input[@id='email']]
+2018-05-02 15:52:36 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:52:36 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:52:36 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:52:36 INFO  HomePage:222 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:52:36 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitLogin']
+2018-05-02 15:52:36 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 15:52:38 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 15:53:08 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='SubmitLogin']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e90223188dd5a0e53f8b0e10fa55acb9
+*** Element info: {Using=xpath, value=//button[@id='SubmitLogin']}
+2018-05-02 15:53:08 INFO  HomePage:222 - Clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2018-05-02 15:53:08 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@id='center_column']/h1
+2018-05-02 15:53:08 INFO  HomePage:222 - User has successfully logged into his/her account
+2018-05-02 15:53:09 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='logout']
+2018-05-02 15:53:09 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='logout']]
+2018-05-02 15:53:11 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='logout']]
+2018-05-02 15:53:41 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='logout']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e90223188dd5a0e53f8b0e10fa55acb9
+*** Element info: {Using=xpath, value=//a[@class='logout']}
+2018-05-02 15:53:41 INFO  HomePage:222 - Clicked on SignOut button and object is Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout']'
+2018-05-02 15:53:41 INFO  TC003_VerifyLoginWithDifferentRecords:55 - *******************Finished TC003_VerifyLoginWithDifferentRecords******************************
+2018-05-02 15:53:41 INFO  TC003_VerifyLoginWithDifferentRecords:44 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-05-02 15:53:41 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 15:53:41 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:53:44 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:53:44 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 15:53:44 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:53:44 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 15:53:44 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //input[@id='email']]
+2018-05-02 15:53:44 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 15:53:44 INFO  HomePage:222 - Entered email address: testautomation6@gmail.com and object is [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //input[@id='email']]
+2018-05-02 15:53:44 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:53:45 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:53:45 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:53:45 INFO  HomePage:222 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:53:45 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitLogin']
+2018-05-02 15:53:45 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 15:53:47 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 15:54:17 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='SubmitLogin']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e90223188dd5a0e53f8b0e10fa55acb9
+*** Element info: {Using=xpath, value=//button[@id='SubmitLogin']}
+2018-05-02 15:54:17 INFO  HomePage:222 - Clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2018-05-02 15:54:17 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@id='center_column']/h1
+2018-05-02 15:54:17 INFO  HomePage:222 - User has successfully logged into his/her account
+2018-05-02 15:54:18 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='logout']
+2018-05-02 15:54:18 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='logout']]
+2018-05-02 15:54:20 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (e90223188dd5a0e53f8b0e10fa55acb9)] -> xpath: //a[@class='logout']]
+2018-05-02 15:54:50 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='logout']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e90223188dd5a0e53f8b0e10fa55acb9
+*** Element info: {Using=xpath, value=//a[@class='logout']}
+2018-05-02 15:54:50 INFO  HomePage:222 - Clicked on SignOut button and object is Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout']'
+2018-05-02 15:54:50 INFO  TC003_VerifyLoginWithDifferentRecords:55 - *******************Finished TC003_VerifyLoginWithDifferentRecords******************************
+2018-05-02 15:54:51 INFO  TestBase:181 - browser closed
+2018-05-02 15:54:51 INFO  TC001_VerifyLoginWithInvalidCredentials:31 - ***********Starting TC001_VerifyLoginWithInvalidCredentials****************
+2018-05-02 15:54:51 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 15:54:51 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (9e2e41d7cb9c73ef3e92765fb5775b44)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:54:53 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (9e2e41d7cb9c73ef3e92765fb5775b44)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:54:53 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 15:54:53 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (9e2e41d7cb9c73ef3e92765fb5775b44)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 15:54:53 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 15:54:53 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (9e2e41d7cb9c73ef3e92765fb5775b44)] -> xpath: //input[@id='email']]
+2018-05-02 15:54:53 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 15:54:53 INFO  HomePage:222 - Entered email address: test@gmail.com and object is [[ChromeDriver: chrome on XP (9e2e41d7cb9c73ef3e92765fb5775b44)] -> xpath: //input[@id='email']]
+2018-05-02 15:54:53 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:54:54 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (9e2e41d7cb9c73ef3e92765fb5775b44)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:54:54 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 15:54:54 INFO  HomePage:222 - Entered password: password and object is [[ChromeDriver: chrome on XP (9e2e41d7cb9c73ef3e92765fb5775b44)] -> xpath: //input[@id='passwd']]
+2018-05-02 15:54:54 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitLogin']
+2018-05-02 15:54:54 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (9e2e41d7cb9c73ef3e92765fb5775b44)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 15:54:55 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (9e2e41d7cb9c73ef3e92765fb5775b44)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 15:54:55 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitLogin']
+2018-05-02 15:54:55 INFO  HomePage:222 - Clicked on submit button and object is [[ChromeDriver: chrome on XP (9e2e41d7cb9c73ef3e92765fb5775b44)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 15:54:55 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@class='alert alert-danger']/ol/li
+2018-05-02 15:54:55 INFO  HomePage:222 - Error message is Authentication failed.
+2018-05-02 15:54:55 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@class='alert alert-danger']/ol/li
+2018-05-02 15:54:55 INFO  TC001_VerifyLoginWithInvalidCredentials:35 - **********Finished TC001_VerifyLoginWithInvalidCredentials******************
+2018-05-02 15:54:56 INFO  TestBase:181 - browser closed
+2018-05-02 15:54:56 INFO  TestBase:181 - Creating object of chrome
+2018-05-02 15:54:59 INFO  TestBase:181 - Navigating to http://automationpractice.com/index.php
+2018-05-02 15:55:08 INFO  WebEventListener:122 - Navigate to: 'http://automationpractice.com/index.php'
+2018-05-02 15:55:09 INFO  TC004_VerifyNavigationToApparelPage:27 - ***********Starting TC004_VerifyNavigationToApparelPage***********
+2018-05-02 15:55:09 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Women']
+2018-05-02 15:55:09 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-02 15:55:09 INFO  HomePage:222 - Mouse hover over option: Women
+2018-05-02 15:55:10 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='Blouses']
+2018-05-02 15:55:10 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-02 15:55:12 INFO  HomePage:222 - Clicked on apparel option: Blouses in Women section
+2018-05-02 15:55:13 INFO  TC004_VerifyNavigationToApparelPage:33 - ***********Finishing TC004_VerifyNavigationToApparelPage**********
+2018-05-02 15:55:14 INFO  TestBase:181 - browser closed
+2018-05-02 15:55:14 INFO  TestBase:181 - Creating object of chrome
+2018-05-02 15:55:16 INFO  TestBase:181 - Navigating to http://automationpractice.com/index.php
+2018-05-02 15:55:26 INFO  WebEventListener:122 - Navigate to: 'http://automationpractice.com/index.php'
+2018-05-02 15:55:27 INFO  TestBase:28 - ********Starting VerifyAddToCart**************
+2018-05-02 15:55:27 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Dresses']
+2018-05-02 15:55:27 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-02 15:55:27 INFO  HomePage:222 - Mouse hover over option: Dresses
+2018-05-02 15:55:27 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='Casual Dresses']
+2018-05-02 15:55:27 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-02 15:55:30 INFO  HomePage:222 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-05-02 15:55:30 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]
+2018-05-02 15:55:30 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (bce8a336dfb2d5250f8555f8375f8fd0)] -> xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]]
+2018-05-02 15:55:33 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (bce8a336dfb2d5250f8555f8375f8fd0)] -> xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]]
+2018-05-02 15:55:33 INFO  TestBase:181 - Printed Dress has been selected
+2018-05-02 15:55:33 INFO  WebEventListener:122 - Found element By: By.xpath: //p[@id='add_to_cart']/button[@name='Submit']
+2018-05-02 15:55:33 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (bce8a336dfb2d5250f8555f8375f8fd0)] -> xpath: //p[@id='add_to_cart']/button[@name='Submit']]
+2018-05-02 15:55:33 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (bce8a336dfb2d5250f8555f8375f8fd0)] -> xpath: //p[@id='add_to_cart']/button[@name='Submit']]
+2018-05-02 15:55:33 INFO  WebEventListener:122 - Found element By: By.xpath: //p[@id='add_to_cart']/button[@name='Submit']
+2018-05-02 15:55:33 INFO  TestBase:181 - Clicked on add to cart button and object is Add to cart
+2018-05-02 15:55:33 INFO  TestBase:40 - **********Finished VerifyAddToCart***********
+2018-05-02 15:55:34 INFO  TestBase:181 - browser closed
+2018-05-02 15:55:34 INFO  TestBase:181 - Creating object of chrome
+2018-05-02 15:55:36 INFO  TestBase:181 - Navigating to http://automationpractice.com/index.php
+2018-05-02 15:55:47 INFO  WebEventListener:122 - Navigate to: 'http://automationpractice.com/index.php'
+2018-05-02 15:55:48 INFO  TestBase:31 - ********Starting VerifyAddToCart**************
+2018-05-02 15:55:48 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Dresses']
+2018-05-02 15:55:48 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-02 15:55:48 INFO  HomePage:222 - Mouse hover over option: Dresses
+2018-05-02 15:55:48 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='Casual Dresses']
+2018-05-02 15:55:48 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-02 15:55:48 INFO  HomePage:222 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-05-02 15:55:48 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]
+2018-05-02 15:55:48 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (fc587ecf22731d8e57353c4e8545baeb)] -> xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]]
+2018-05-02 15:55:51 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (fc587ecf22731d8e57353c4e8545baeb)] -> xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]]
+2018-05-02 15:55:51 INFO  TestBase:181 - Printed Dress has been selected
+2018-05-02 15:55:51 INFO  WebEventListener:122 - Found element By: By.cssSelector: button[class='btn btn-default btn-twitter']
+2018-05-02 15:55:51 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (fc587ecf22731d8e57353c4e8545baeb)] -> css selector: button[class='btn btn-default btn-twitter']]
+2018-05-02 15:55:51 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (fc587ecf22731d8e57353c4e8545baeb)] -> css selector: button[class='btn btn-default btn-twitter']]
+2018-05-02 15:55:51 INFO  WebEventListener:122 - Found element By: By.cssSelector: button[class='btn btn-default btn-twitter']
+2018-05-02 15:55:51 INFO  TestBase:181 - Clicked on tweet button and object is Tweet
+2018-05-02 15:55:54 INFO  WebEventListener:122 - Found element By: By.cssSelector: h2[class='action-information']
+2018-05-02 15:55:59 INFO  TestBase:52 - **********Finished VerifyAddToCart***********
+2018-05-02 15:55:59 INFO  TestBase:181 - browser closed
+2018-05-02 16:28:33 INFO  TestBase:181 - Creating object of chrome
+2018-05-02 16:28:37 INFO  TestBase:181 - Navigating to http://automationpractice.com/index.php
+2018-05-02 16:28:47 INFO  WebEventListener:122 - Navigate to: 'http://automationpractice.com/index.php'
+2018-05-02 16:28:49 INFO  TC002_VerifyRegistration:30 - ********************Starting TC002_VerifyRegistration***************************
+2018-05-02 16:28:49 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:28:49 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:28:51 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:28:51 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:28:51 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:28:51 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email_create']
+2018-05-02 16:28:51 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='email_create']]
+2018-05-02 16:28:51 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email_create']
+2018-05-02 16:28:52 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='email_create']]
+2018-05-02 16:28:52 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email_create']
+2018-05-02 16:28:52 INFO  HomePage:222 - Entered email and object is [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='email_create']]
+2018-05-02 16:28:52 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitCreate']
+2018-05-02 16:28:52 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //button[@id='SubmitCreate']]
+2018-05-02 16:28:52 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //button[@id='SubmitCreate']]
+2018-05-02 16:28:52 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitCreate']
+2018-05-02 16:28:52 INFO  HomePage:222 - Clicked on create account button and onject is [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //button[@id='SubmitCreate']]
+2018-05-02 16:28:53 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='id_gender2']
+2018-05-02 16:28:53 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='id_gender2']]
+2018-05-02 16:28:53 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='id_gender2']]
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_firstname']
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='customer_firstname']]
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_firstname']
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='customer_firstname']]
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_lastname']
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='customer_lastname']]
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_lastname']
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='customer_lastname']]
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:28:54 INFO  HomePage:222 - Entered password and object is [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:28:54 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 16:28:55 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 16:28:55 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 16:29:25 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[normalize-space(.) = "4  "]
+2018-05-02 16:29:25 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 16:29:25 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[contains(., "4")]
+2018-05-02 16:29:25 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //select[@id='days']]] -> xpath: .//option[contains(., "4")]]
+2018-05-02 16:29:25 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //select[@id='days']]] -> xpath: .//option[contains(., "4")]]
+2018-05-02 16:29:25 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 16:29:25 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 16:29:25 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 16:29:55 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[normalize-space(.) = "April "]
+2018-05-02 16:29:55 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 16:29:55 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[contains(., "April")]
+2018-05-02 16:29:55 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //select[@id='months']]] -> xpath: .//option[contains(., "April")]]
+2018-05-02 16:29:55 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //select[@id='months']]] -> xpath: .//option[contains(., "April")]]
+2018-05-02 16:29:55 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 16:29:55 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 16:29:55 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 16:30:25 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[normalize-space(.) = "1990  "]
+2018-05-02 16:30:25 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 16:30:25 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[contains(., "1990")]
+2018-05-02 16:30:25 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //select[@id='years']]] -> xpath: .//option[contains(., "1990")]]
+2018-05-02 16:30:25 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //select[@id='years']]] -> xpath: .//option[contains(., "1990")]]
+2018-05-02 16:30:25 INFO  HomePage:222 - Selected year and object is org.openqa.selenium.support.ui.Select@6edaa77a
+2018-05-02 16:30:25 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='address1']
+2018-05-02 16:30:25 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='address1']]
+2018-05-02 16:30:25 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='address1']
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='address1']]
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='city']
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='city']]
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='city']
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='city']]
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='id_state']
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='id_state']
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='id_state']
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[@value = "2"]
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //select[@id='id_state']]] -> xpath: .//option[@value = "2"]]
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //select[@id='id_state']]] -> xpath: .//option[@value = "2"]]
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='postcode']
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='postcode']]
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='postcode']
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='postcode']]
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='postcode']
+2018-05-02 16:30:26 INFO  HomePage:222 - Enterted zipcode and object is [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='postcode']]
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='phone_mobile']
+2018-05-02 16:30:26 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='phone_mobile']]
+2018-05-02 16:30:27 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='alias']
+2018-05-02 16:30:27 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='alias']]
+2018-05-02 16:30:27 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='alias']
+2018-05-02 16:30:27 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //input[@id='alias']]
+2018-05-02 16:30:27 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='submitAccount']
+2018-05-02 16:30:27 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //button[@id='submitAccount']]
+2018-05-02 16:30:29 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (5dd6eb5a6fa3138f3c859d853012068c)] -> xpath: //button[@id='submitAccount']]
+2018-05-02 16:30:29 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@id='center_column']/h1
+2018-05-02 16:30:29 INFO  HomePage:222 - User has successfully logged into his/her account
+2018-05-02 16:30:29 INFO  TC002_VerifyRegistration:35 - *******************Finished TC002_VerifyRegistration******************************
+2018-05-02 16:30:30 INFO  TestBase:181 - browser closed
+2018-05-02 16:30:31 INFO  TestBase:181 - Creating object of chrome
+2018-05-02 16:30:33 INFO  TestBase:181 - Navigating to http://automationpractice.com/index.php
+2018-05-02 16:30:43 INFO  WebEventListener:122 - Navigate to: 'http://automationpractice.com/index.php'
+2018-05-02 16:30:45 INFO  TC003_VerifyLoginWithDifferentRecords:44 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-05-02 16:30:45 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:30:45 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (817564dbc0d7bf9b799a9692c06a9f04)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:30:47 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (817564dbc0d7bf9b799a9692c06a9f04)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:30:47 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:30:47 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (817564dbc0d7bf9b799a9692c06a9f04)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:30:47 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 16:30:48 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (817564dbc0d7bf9b799a9692c06a9f04)] -> xpath: //input[@id='email']]
+2018-05-02 16:30:48 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 16:30:48 INFO  HomePage:222 - Entered email address: testautomation4@gmail.com and object is [[ChromeDriver: chrome on XP (817564dbc0d7bf9b799a9692c06a9f04)] -> xpath: //input[@id='email']]
+2018-05-02 16:30:48 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:30:48 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (817564dbc0d7bf9b799a9692c06a9f04)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:30:48 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:30:48 INFO  HomePage:222 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (817564dbc0d7bf9b799a9692c06a9f04)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:30:48 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitLogin']
+2018-05-02 16:30:48 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (817564dbc0d7bf9b799a9692c06a9f04)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 16:30:50 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (817564dbc0d7bf9b799a9692c06a9f04)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 16:31:20 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='SubmitLogin']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 817564dbc0d7bf9b799a9692c06a9f04
+*** Element info: {Using=xpath, value=//button[@id='SubmitLogin']}
+2018-05-02 16:31:20 INFO  HomePage:222 - Clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2018-05-02 16:31:20 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@id='center_column']/h1
+2018-05-02 16:31:20 INFO  HomePage:222 - User has successfully logged into his/her account
+2018-05-02 16:31:21 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='logout']
+2018-05-02 16:31:21 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (817564dbc0d7bf9b799a9692c06a9f04)] -> xpath: //a[@class='logout']]
+2018-05-02 16:31:23 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (817564dbc0d7bf9b799a9692c06a9f04)] -> xpath: //a[@class='logout']]
+2018-05-02 16:37:17 INFO  TestBase:187 - Creating object of chrome
+2018-05-02 16:37:20 INFO  TestBase:187 - Navigating to http://automationpractice.com/index.php
+2018-05-02 16:37:31 INFO  WebEventListener:122 - Navigate to: 'http://automationpractice.com/index.php'
+2018-05-02 16:37:32 INFO  TC002_VerifyRegistration:30 - ********************Starting TC002_VerifyRegistration***************************
+2018-05-02 16:37:32 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:37:32 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:37:35 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:37:35 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:37:35 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:37:35 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email_create']
+2018-05-02 16:37:35 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='email_create']]
+2018-05-02 16:37:35 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email_create']
+2018-05-02 16:37:35 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='email_create']]
+2018-05-02 16:37:35 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email_create']
+2018-05-02 16:37:35 INFO  HomePage:222 - Entered email and object is [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='email_create']]
+2018-05-02 16:37:35 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitCreate']
+2018-05-02 16:37:35 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //button[@id='SubmitCreate']]
+2018-05-02 16:37:35 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //button[@id='SubmitCreate']]
+2018-05-02 16:37:35 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitCreate']
+2018-05-02 16:37:35 INFO  HomePage:222 - Clicked on create account button and onject is [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //button[@id='SubmitCreate']]
+2018-05-02 16:37:37 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='id_gender2']
+2018-05-02 16:37:37 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='id_gender2']]
+2018-05-02 16:37:37 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='id_gender2']]
+2018-05-02 16:37:37 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_firstname']
+2018-05-02 16:37:37 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='customer_firstname']]
+2018-05-02 16:37:37 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_firstname']
+2018-05-02 16:37:37 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='customer_firstname']]
+2018-05-02 16:37:37 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_lastname']
+2018-05-02 16:37:37 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='customer_lastname']]
+2018-05-02 16:37:37 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='customer_lastname']
+2018-05-02 16:37:38 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='customer_lastname']]
+2018-05-02 16:37:38 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:37:38 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:37:38 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:37:38 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:37:38 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:37:38 INFO  HomePage:222 - Entered password and object is [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:37:38 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 16:37:38 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 16:37:38 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 16:38:08 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[normalize-space(.) = "4  "]
+2018-05-02 16:38:08 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='days']
+2018-05-02 16:38:08 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[contains(., "4")]
+2018-05-02 16:38:08 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //select[@id='days']]] -> xpath: .//option[contains(., "4")]]
+2018-05-02 16:38:08 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //select[@id='days']]] -> xpath: .//option[contains(., "4")]]
+2018-05-02 16:38:08 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 16:38:08 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 16:38:08 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 16:38:38 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[normalize-space(.) = "April "]
+2018-05-02 16:38:38 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='months']
+2018-05-02 16:38:38 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[contains(., "April")]
+2018-05-02 16:38:38 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //select[@id='months']]] -> xpath: .//option[contains(., "April")]]
+2018-05-02 16:38:38 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //select[@id='months']]] -> xpath: .//option[contains(., "April")]]
+2018-05-02 16:38:38 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 16:38:38 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 16:38:38 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 16:39:08 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[normalize-space(.) = "1990  "]
+2018-05-02 16:39:08 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='years']
+2018-05-02 16:39:08 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[contains(., "1990")]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //select[@id='years']]] -> xpath: .//option[contains(., "1990")]]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //select[@id='years']]] -> xpath: .//option[contains(., "1990")]]
+2018-05-02 16:39:09 INFO  HomePage:222 - Selected year and object is org.openqa.selenium.support.ui.Select@1c025cb
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='address1']
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='address1']]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='address1']
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='address1']]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='city']
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='city']]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='city']
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='city']]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='id_state']
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='id_state']
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //select[@id='id_state']
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: .//option[@value = "2"]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Trying to click on: [[[[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //select[@id='id_state']]] -> xpath: .//option[@value = "2"]]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Clicked on: [[[[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //select[@id='id_state']]] -> xpath: .//option[@value = "2"]]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='postcode']
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='postcode']]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='postcode']
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='postcode']]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='postcode']
+2018-05-02 16:39:09 INFO  HomePage:222 - Enterted zipcode and object is [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='postcode']]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='phone_mobile']
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='phone_mobile']]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='alias']
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='alias']]
+2018-05-02 16:39:09 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='alias']
+2018-05-02 16:39:10 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //input[@id='alias']]
+2018-05-02 16:39:10 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='submitAccount']
+2018-05-02 16:39:10 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //button[@id='submitAccount']]
+2018-05-02 16:39:12 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (c0afc58650ebb236ccf71808155786a9)] -> xpath: //button[@id='submitAccount']]
+2018-05-02 16:39:12 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@id='center_column']/h1
+2018-05-02 16:39:12 INFO  HomePage:222 - User has successfully logged into his/her account
+2018-05-02 16:39:12 INFO  TC002_VerifyRegistration:35 - *******************Finished TC002_VerifyRegistration******************************
+2018-05-02 16:39:12 INFO  TestBase:187 - browser closed
+2018-05-02 16:39:13 INFO  TestBase:187 - Creating object of chrome
+2018-05-02 16:39:16 INFO  TestBase:187 - Navigating to http://automationpractice.com/index.php
+2018-05-02 16:39:34 INFO  WebEventListener:122 - Navigate to: 'http://automationpractice.com/index.php'
+2018-05-02 16:39:36 INFO  TC003_VerifyLoginWithDifferentRecords:44 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-05-02 16:39:36 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:39:36 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:39:38 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:39:38 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:39:38 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:39:38 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 16:39:39 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //input[@id='email']]
+2018-05-02 16:39:39 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 16:39:39 INFO  HomePage:222 - Entered email address: testautomation4@gmail.com and object is [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //input[@id='email']]
+2018-05-02 16:39:39 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:39:39 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:39:39 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:39:39 INFO  HomePage:222 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:39:39 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitLogin']
+2018-05-02 16:39:39 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 16:39:41 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 16:40:11 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='SubmitLogin']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0e3da74d8119515dd71cc5d32ec8d894
+*** Element info: {Using=xpath, value=//button[@id='SubmitLogin']}
+2018-05-02 16:40:11 INFO  HomePage:222 - Clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2018-05-02 16:40:11 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@id='center_column']/h1
+2018-05-02 16:40:11 INFO  HomePage:222 - User has successfully logged into his/her account
+2018-05-02 16:40:12 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='logout']
+2018-05-02 16:40:12 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='logout']]
+2018-05-02 16:40:15 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='logout']]
+2018-05-02 16:40:45 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='logout']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0e3da74d8119515dd71cc5d32ec8d894
+*** Element info: {Using=xpath, value=//a[@class='logout']}
+2018-05-02 16:40:45 INFO  HomePage:222 - Clicked on SignOut button and object is Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout']'
+2018-05-02 16:40:45 INFO  TC003_VerifyLoginWithDifferentRecords:55 - *******************Finished TC003_VerifyLoginWithDifferentRecords******************************
+2018-05-02 16:40:45 INFO  TC003_VerifyLoginWithDifferentRecords:44 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-05-02 16:40:45 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:40:45 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:40:47 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:40:47 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:40:47 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:40:47 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 16:40:47 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //input[@id='email']]
+2018-05-02 16:40:47 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 16:40:47 INFO  HomePage:222 - Entered email address: testautomation5@gmail.com and object is [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //input[@id='email']]
+2018-05-02 16:40:47 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:40:47 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:40:47 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:40:47 INFO  HomePage:222 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:40:47 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitLogin']
+2018-05-02 16:40:47 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 16:40:49 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 16:41:19 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='SubmitLogin']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0e3da74d8119515dd71cc5d32ec8d894
+*** Element info: {Using=xpath, value=//button[@id='SubmitLogin']}
+2018-05-02 16:41:19 INFO  HomePage:222 - Clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2018-05-02 16:41:19 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@id='center_column']/h1
+2018-05-02 16:41:19 INFO  HomePage:222 - User has successfully logged into his/her account
+2018-05-02 16:41:19 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='logout']
+2018-05-02 16:41:19 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='logout']]
+2018-05-02 16:41:23 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='logout']]
+2018-05-02 16:41:53 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='logout']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0e3da74d8119515dd71cc5d32ec8d894
+*** Element info: {Using=xpath, value=//a[@class='logout']}
+2018-05-02 16:41:53 INFO  HomePage:222 - Clicked on SignOut button and object is Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout']'
+2018-05-02 16:41:53 INFO  TC003_VerifyLoginWithDifferentRecords:55 - *******************Finished TC003_VerifyLoginWithDifferentRecords******************************
+2018-05-02 16:41:53 INFO  TC003_VerifyLoginWithDifferentRecords:44 - ********************Starting TC003_VerifyLoginWithDifferentRecords***************************
+2018-05-02 16:41:53 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:41:53 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:41:55 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:41:55 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:41:55 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:41:55 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 16:41:55 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //input[@id='email']]
+2018-05-02 16:41:55 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 16:41:55 INFO  HomePage:222 - Entered email address: testautomation6@gmail.com and object is [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //input[@id='email']]
+2018-05-02 16:41:55 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:41:56 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:41:56 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:41:56 INFO  HomePage:222 - Entered password: password@123 and object is [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:41:56 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitLogin']
+2018-05-02 16:41:56 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 16:41:57 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 16:42:27 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='SubmitLogin']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0e3da74d8119515dd71cc5d32ec8d894
+*** Element info: {Using=xpath, value=//button[@id='SubmitLogin']}
+2018-05-02 16:42:27 INFO  HomePage:222 - Clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2018-05-02 16:42:27 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@id='center_column']/h1
+2018-05-02 16:42:27 INFO  HomePage:222 - User has successfully logged into his/her account
+2018-05-02 16:42:28 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='logout']
+2018-05-02 16:42:28 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='logout']]
+2018-05-02 16:42:31 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (0e3da74d8119515dd71cc5d32ec8d894)] -> xpath: //a[@class='logout']]
+2018-05-02 16:43:01 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='logout']"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Himani\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0e3da74d8119515dd71cc5d32ec8d894
+*** Element info: {Using=xpath, value=//a[@class='logout']}
+2018-05-02 16:43:01 INFO  HomePage:222 - Clicked on SignOut button and object is Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='logout']'
+2018-05-02 16:43:01 INFO  TC003_VerifyLoginWithDifferentRecords:55 - *******************Finished TC003_VerifyLoginWithDifferentRecords******************************
+2018-05-02 16:43:02 INFO  TestBase:187 - browser closed
+2018-05-02 16:43:02 INFO  TC001_VerifyLoginWithInvalidCredentials:31 - ***********Starting TC001_VerifyLoginWithInvalidCredentials****************
+2018-05-02 16:43:02 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:43:02 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (7e898cdd49b68bb4a444a3e9618fd03f)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:43:05 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (7e898cdd49b68bb4a444a3e9618fd03f)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:43:05 INFO  WebEventListener:122 - Found element By: By.xpath: //a[@class='login'][@title='Log in to your customer account']
+2018-05-02 16:43:05 INFO  HomePage:222 - Clicked on SignIn and object is [[ChromeDriver: chrome on XP (7e898cdd49b68bb4a444a3e9618fd03f)] -> xpath: //a[@class='login'][@title='Log in to your customer account']]
+2018-05-02 16:43:05 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 16:43:05 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (7e898cdd49b68bb4a444a3e9618fd03f)] -> xpath: //input[@id='email']]
+2018-05-02 16:43:05 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='email']
+2018-05-02 16:43:05 INFO  HomePage:222 - Entered email address: test@gmail.com and object is [[ChromeDriver: chrome on XP (7e898cdd49b68bb4a444a3e9618fd03f)] -> xpath: //input[@id='email']]
+2018-05-02 16:43:05 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:43:05 INFO  WebEventListener:122 - Element value changed to: [[ChromeDriver: chrome on XP (7e898cdd49b68bb4a444a3e9618fd03f)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:43:05 INFO  WebEventListener:122 - Found element By: By.xpath: //input[@id='passwd']
+2018-05-02 16:43:05 INFO  HomePage:222 - Entered password: password and object is [[ChromeDriver: chrome on XP (7e898cdd49b68bb4a444a3e9618fd03f)] -> xpath: //input[@id='passwd']]
+2018-05-02 16:43:05 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitLogin']
+2018-05-02 16:43:05 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (7e898cdd49b68bb4a444a3e9618fd03f)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 16:43:07 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (7e898cdd49b68bb4a444a3e9618fd03f)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 16:43:07 INFO  WebEventListener:122 - Found element By: By.xpath: //button[@id='SubmitLogin']
+2018-05-02 16:43:07 INFO  HomePage:222 - Clicked on submit button and object is [[ChromeDriver: chrome on XP (7e898cdd49b68bb4a444a3e9618fd03f)] -> xpath: //button[@id='SubmitLogin']]
+2018-05-02 16:43:07 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@class='alert alert-danger']/ol/li
+2018-05-02 16:43:07 INFO  HomePage:222 - Error message is Authentication failed.
+2018-05-02 16:43:07 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@class='alert alert-danger']/ol/li
+2018-05-02 16:43:07 INFO  TC001_VerifyLoginWithInvalidCredentials:35 - **********Finished TC001_VerifyLoginWithInvalidCredentials******************
+2018-05-02 16:43:07 INFO  TestBase:187 - browser closed
+2018-05-02 16:43:07 INFO  TestBase:187 - Creating object of chrome
+2018-05-02 16:43:10 INFO  TestBase:187 - Navigating to http://automationpractice.com/index.php
+2018-05-02 16:43:21 INFO  WebEventListener:122 - Navigate to: 'http://automationpractice.com/index.php'
+2018-05-02 16:43:22 INFO  TC004_VerifyNavigationToApparelPage:27 - ***********Starting TC004_VerifyNavigationToApparelPage***********
+2018-05-02 16:43:22 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Women']
+2018-05-02 16:43:22 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-02 16:43:22 INFO  HomePage:222 - Mouse hover over option: Women
+2018-05-02 16:43:23 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Women']+ul>li>ul>li>a[title='Blouses']
+2018-05-02 16:43:23 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-02 16:43:26 INFO  HomePage:222 - Clicked on apparel option: Blouses in Women section
+2018-05-02 16:43:27 INFO  TC004_VerifyNavigationToApparelPage:33 - ***********Finishing TC004_VerifyNavigationToApparelPage**********
+2018-05-02 16:43:27 INFO  TestBase:187 - browser closed
+2018-05-02 16:43:27 INFO  TestBase:187 - Creating object of chrome
+2018-05-02 16:43:29 INFO  TestBase:187 - Navigating to http://automationpractice.com/index.php
+2018-05-02 16:43:48 INFO  WebEventListener:122 - Navigate to: 'http://automationpractice.com/index.php'
+2018-05-02 16:43:49 INFO  TestBase:28 - ********Starting VerifyAddToCart**************
+2018-05-02 16:43:50 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Dresses']
+2018-05-02 16:43:50 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-02 16:43:50 INFO  HomePage:222 - Mouse hover over option: Dresses
+2018-05-02 16:43:50 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='Casual Dresses']
+2018-05-02 16:43:50 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-02 16:43:50 INFO  HomePage:222 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-05-02 16:43:50 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]
+2018-05-02 16:43:50 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (0ec6539518ed34ef98a38cec2a7c0762)] -> xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]]
+2018-05-02 16:43:53 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (0ec6539518ed34ef98a38cec2a7c0762)] -> xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]]
+2018-05-02 16:43:53 INFO  TestBase:187 - Printed Dress has been selected
+2018-05-02 16:43:53 INFO  WebEventListener:122 - Found element By: By.xpath: //p[@id='add_to_cart']/button[@name='Submit']
+2018-05-02 16:43:53 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (0ec6539518ed34ef98a38cec2a7c0762)] -> xpath: //p[@id='add_to_cart']/button[@name='Submit']]
+2018-05-02 16:43:53 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (0ec6539518ed34ef98a38cec2a7c0762)] -> xpath: //p[@id='add_to_cart']/button[@name='Submit']]
+2018-05-02 16:43:53 INFO  WebEventListener:122 - Found element By: By.xpath: //p[@id='add_to_cart']/button[@name='Submit']
+2018-05-02 16:43:53 INFO  TestBase:187 - Clicked on add to cart button and object is Add to cart
+2018-05-02 16:43:53 INFO  TestBase:40 - **********Finished VerifyAddToCart***********
+2018-05-02 16:43:54 INFO  TestBase:187 - browser closed
+2018-05-02 16:43:54 INFO  TestBase:187 - Creating object of chrome
+2018-05-02 16:43:56 INFO  TestBase:187 - Navigating to http://automationpractice.com/index.php
+2018-05-02 16:44:05 INFO  WebEventListener:122 - Navigate to: 'http://automationpractice.com/index.php'
+2018-05-02 16:44:06 INFO  TestBase:31 - ********Starting VerifyAddToCart**************
+2018-05-02 16:44:06 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Dresses']
+2018-05-02 16:44:06 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-02 16:44:06 INFO  HomePage:222 - Mouse hover over option: Dresses
+2018-05-02 16:44:06 INFO  WebEventListener:122 - Found element By: By.cssSelector: ul[class^='sf-menu']>li>a[title='Dresses']+ul>li>a[title='Casual Dresses']
+2018-05-02 16:44:06 INFO  WebEventListener:122 - Exception occured: org.openqa.selenium.UnsupportedCommandException: actions
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'HIMANI', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: EventFiringWebDriver
+2018-05-02 16:44:06 INFO  HomePage:222 - Clicked on apparel option: Casual Dresses in Dresses section
+2018-05-02 16:44:06 INFO  WebEventListener:122 - Found element By: By.xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]
+2018-05-02 16:44:06 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (e5fda1bcbddff0955c26a9c579d3b5d6)] -> xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]]
+2018-05-02 16:44:09 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (e5fda1bcbddff0955c26a9c579d3b5d6)] -> xpath: //div[@class='product-container']//a[contains(text(),'Printed Dress')]]
+2018-05-02 16:44:09 INFO  TestBase:187 - Printed Dress has been selected
+2018-05-02 16:44:09 INFO  WebEventListener:122 - Found element By: By.cssSelector: button[class='btn btn-default btn-twitter']
+2018-05-02 16:44:09 INFO  WebEventListener:122 - Trying to click on: [[ChromeDriver: chrome on XP (e5fda1bcbddff0955c26a9c579d3b5d6)] -> css selector: button[class='btn btn-default btn-twitter']]
+2018-05-02 16:44:09 INFO  WebEventListener:122 - Clicked on: [[ChromeDriver: chrome on XP (e5fda1bcbddff0955c26a9c579d3b5d6)] -> css selector: button[class='btn btn-default btn-twitter']]
+2018-05-02 16:44:09 INFO  WebEventListener:122 - Found element By: By.cssSelector: button[class='btn btn-default btn-twitter']
+2018-05-02 16:44:09 INFO  TestBase:187 - Clicked on tweet button and object is Tweet
+2018-05-02 16:44:10 INFO  WebEventListener:122 - Found element By: By.cssSelector: h2[class='action-information']
+2018-05-02 16:44:15 INFO  TestBase:52 - **********Finished VerifyAddToCart***********
+2018-05-02 16:44:16 INFO  TestBase:187 - browser closed

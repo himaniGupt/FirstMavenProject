@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
+  <test name="HomePageTest(failed)">
     <classes>
-      <class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart">
+      <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
         <methods>
-          <include name="endTest"/>
+          <include name="beforeMethod"/>
+          <include name="TestLogin" invocation-numbers="3 4"/>
           <include name="setup"/>
-          <include name="VerifyAddToCart"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart -->
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

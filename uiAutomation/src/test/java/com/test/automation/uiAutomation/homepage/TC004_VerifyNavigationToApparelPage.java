@@ -33,9 +33,9 @@ public class TC004_VerifyNavigationToApparelPage extends TestBase {
 		log.info("***********Finishing TC004_VerifyNavigationToApparelPage**********");
 	}
 	
-	@AfterClass
-	public void endTest()
-	{
-		driver.close();
-	}
+//	@AfterClass
+//	public void endTest()
+//	{
+//		driver.close();
+//	}
 }

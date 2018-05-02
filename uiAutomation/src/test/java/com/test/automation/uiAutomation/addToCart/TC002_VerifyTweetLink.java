@@ -52,10 +52,10 @@ public class TC002_VerifyTweetLink extends TestBase{
 		log.info("**********Finished VerifyAddToCart***********");
 	}
 	
-	@AfterClass
-	public void endTest()
-	{
-		closeBrowser();
-	}
+//	@AfterClass
+//	public void endTest()
+//	{
+//		closeBrowser();
+//	}
 
 }
