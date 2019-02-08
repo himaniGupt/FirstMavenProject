@@ -38,6 +38,7 @@ public class AddToCart extends TestBase{
 	{
 		addToCartButton.click();
 		log("Clicked on add to cart button and object is "+addToCartButton.getText());
+		
 	}
 	
 	public void clickOnTweet()

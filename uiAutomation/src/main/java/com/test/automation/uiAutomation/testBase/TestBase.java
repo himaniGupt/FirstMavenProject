@@ -48,7 +48,7 @@ public class TestBase {
 	Listener listener;
 	public EventFiringWebDriver driver;
 	WebEventListener eventListener;
-	Properties OR;
+	protected Properties OR;
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	

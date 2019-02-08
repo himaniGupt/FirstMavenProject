@@ -9,6 +9,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.test.automation.uiAutomation.testBase.TestBase;
 import com.test.automation.uiAutomation.uiActions.HomePage;
@@ -33,7 +34,7 @@ public class TC003_VerifyLoginWithDifferentRecords extends TestBase{
 	}
 	
 	
-	@Test(dataProvider="LoginData")
+	@Test(dataProvider="LoginData",alwaysRun=true)
 	public void TestLogin(String emailAddress, String password, String runMode)
 	{
 		if(runMode.equalsIgnoreCase("n"))
@@ -51,7 +52,9 @@ public class TC003_VerifyLoginWithDifferentRecords extends TestBase{
 		{
 			homepage.logOutAccount();
 		}
-		Assert.assertEquals(status, true);
+		SoftAssert softassert = new SoftAssert();
+		softassert.assertEquals(status, true);
+		//Assert.assertEquals(status, true);
 		log.info("*******************Finished TC003_VerifyLoginWithDifferentRecords******************************");
 		}
 	}

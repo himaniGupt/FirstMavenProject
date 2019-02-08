@@ -1,5 +1,6 @@
 package samplePackage.sampleProject;
 
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -15,19 +16,25 @@ public class toVerifyTestNgAnnotations {
 	@Test(groups= {"sanity","regression"})
 	public void testCase1()
 	{
-		System.out.println("Test case1");
+		System.out.println("Test case1 | "+Thread.currentThread().getId());
+		Reporter.log("toVerifyTestNgAnnotations - Test case1");
+		//System.out.println(Thread.currentThread().getId());
 	}
 	
 	@Test(groups="sanity")
 	public void testCase2()
 	{
-		System.out.println("Test case2");
+		System.out.println("Test case2 |"+Thread.currentThread().getId());
+		Reporter.log("toVerifyTestNgAnnotations - Test case2");
+		//System.out.println(Thread.currentThread().getId());
 	}
 	
 	@Test(groups="sanity")
 	public void testCase3()
 	{
-		System.out.println("Test case3");
+		System.out.println("Test case3 |"+Thread.currentThread().getId());
+		Reporter.log("toVerifyTestNgAnnotations - Test case3");
+	//	System.out.println(Thread.currentThread().getId());
 	}
 	
 	@BeforeClass(groups= {"sanity","regression"})

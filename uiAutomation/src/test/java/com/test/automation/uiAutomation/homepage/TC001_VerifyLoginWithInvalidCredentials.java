@@ -25,7 +25,7 @@ public class TC001_VerifyLoginWithInvalidCredentials extends TestBase {
 		
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void VerifyLoginWithInvalidCredentials()
 	{
 		log.info("***********Starting TC001_VerifyLoginWithInvalidCredentials****************");
@@ -33,6 +33,12 @@ public class TC001_VerifyLoginWithInvalidCredentials extends TestBase {
 		homepage.loginToApplication("test@gmail.com", "password");
 		Assert.assertEquals(homepage.getInvalidLoginText(), "Authentication failed.");
 		log.info("**********Finished TC001_VerifyLoginWithInvalidCredentials******************");
+	}
+	
+	@Test
+	public void verifyLoginSecondTestCase()
+	{
+		System.out.println("2nd test case");
 	}
 	
 //	@AfterClass

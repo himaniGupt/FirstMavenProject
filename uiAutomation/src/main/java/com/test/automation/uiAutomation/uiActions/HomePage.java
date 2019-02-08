@@ -1,6 +1,9 @@
 package com.test.automation.uiAutomation.uiActions;
 
 import java.awt.Menu;
+import java.util.NoSuchElementException;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -10,7 +13,11 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
 import com.test.automation.uiAutomation.testBase.TestBase;
@@ -95,6 +102,8 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//div[@id='center_column']/h1")
 	WebElement myAccountTag;
 	
+	//WebDriverWait wait = new WebDriverWait(driver,20);
+	
 //	public HomePage(WebDriver driver)
 //	{
 //		this.driver=driver;
@@ -110,6 +119,22 @@ public class HomePage extends TestBase{
 	
 	public void loginToApplication(String emailAddress, String password)
 	{
+		//WebElement signinbutton = driver.findElement(By.xpath("//a[@class='login'][@title='Log in to your customer account']"));
+		//driver.navigate().refresh();
+		//signinbutton.click(); --------- done to check Stale Element Exception
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//wait.until(ExpectedConditions.);
+//		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withTimeout(30, TimeUnit.SECONDS).pollingEvery(5, TimeUnit.SECONDS).ignoring(NoSuchElementException.class);
+//		WebElement element = wait.until(new Function<WebDriver,WebElement>()
+//		public WebElement apply(WebDriver driver){
+//			return signIn;
+//		
+//		});
+//		Set<String> handles = driver.getWindowHandles();
+//		for(String handle1:handles)
+//		{
+//			driver.switchTo().window(handle1);
+//		}
 		signIn.click();
 		log("Clicked on SignIn and object is "+signIn.toString());
 		loginEmailAddress.sendKeys(emailAddress);

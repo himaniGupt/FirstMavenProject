@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke Suite">
+<!-- <listeners> -->
+<!-- <listener class-name="com.test.automation.uiAutomation.customListener.Listener"></listener> -->
+<!-- </listeners> -->
+
+<!-- <test name="HomePageTest"> -->
+<!-- <classes> -->
+<!-- <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords"></class> -->
+<!-- <class name="com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentials"></class> -->
+<!-- </classes> -->
+<!-- </test> -->
+
+<test name="AddToCartTest">
+<classes>
+<class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart"></class>
+</classes>
+</test>
+
+</suite>
+

@@ -2,8 +2,8 @@
 <suite name="Regression Suite">
 <test name="sampleProjectTests">
 <classes>
-<class name="samplePackage.sampleProject.toVerifyTestNgAnnotations"></class>
 <class name="samplePackage.sampleProject.toVerifyTestNgMoreAnnotations"></class>
+<class name="samplePackage.sampleProject.toVerifyTestNgAnnotations"></class>
 </classes>
 </test>
 

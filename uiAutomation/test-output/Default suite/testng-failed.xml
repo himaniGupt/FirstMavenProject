@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart">
+      <class name="com.test.automation.uiAutomation.MiscLearning.TC007_HandleCaptcha">
         <methods>
-          <include name="endTest"/>
           <include name="setup"/>
-          <include name="VerifyAddToCart"/>
+          <include name="beforeMethod"/>
+          <include name="enterCaptchaValue"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToCart -->
+      </class> <!-- com.test.automation.uiAutomation.MiscLearning.TC007_HandleCaptcha -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
