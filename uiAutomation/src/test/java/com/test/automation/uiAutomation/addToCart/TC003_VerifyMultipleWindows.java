@@ -29,7 +29,9 @@ public class TC003_VerifyMultipleWindows extends TestBase{
 		while(itr.hasNext())
 		{
 			windowId.add(itr.next());
+			System.out.println(itr.next());
 		}
+		
 		
 		driver.switchTo().window(windowId.get(6));
 		driver.switchTo().window(windowId.get(8));
